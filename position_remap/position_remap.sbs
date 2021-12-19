@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202102"/>
+  <updaterVersion v="1.1.0.202102"/>
+  <fileUID v="{6a9c4a24-7ed6-4775-b420-9e850c1dd0d9}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://blend_switch.sbs"/>
+      <uid v="1299239600"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="position_remap"/>
+      <uid v="1427147802"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <label v="Position Remap"/>
+        <icon>
+          <datalength v="3887"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="input"/>
+          <uid v="1427148946"/>
+          <isConnectable v="1"/>
+          <type v="1"/>
+          <defaultValue>
+            <constantValueFloat4 v="0 0 0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+          <visibleIf v="input[&quot;Color_Mode&quot;] == true"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="input_1"/>
+          <uid v="1427154189"/>
+          <attributes>
+            <label v="input"/>
+          </attributes>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+          <visibleIf v="input[&quot;Color_Mode&quot;] == false"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="position"/>
+          <uid v="1427148932"/>
+          <isConnectable v="1"/>
+          <type v="1"/>
+          <defaultValue>
+            <constantValueFloat4 v="0 0 0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Color_Mode"/>
+          <uid v="1427154262"/>
+          <attributes>
+            <label v="Color Mode"/>
+          </attributes>
+          <type v="4"/>
+          <defaultValue>
+            <constantValueBool v="1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="buttons"/>
+            <options>
+              <option>
+                <name v="booleditortype"/>
+                <value v="pushbuttons"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="Grayscale"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Color"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1427148932"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1427154285"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1427148709"/>
+          <GUILayout>
+            <gpos v="272 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1427148710"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input:1"/>
+              <connRef v="1427148933"/>
+              <connRefOutput v="1427148934"/>
+            </connection>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1427154181"/>
+              <connRefOutput v="1427154182"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compFilter>
+              <filter v="pixelprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="perpixel"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1427148816"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1427148763"/>
+                          <function v="samplecol"/>
+                          <type v="2048"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1427148771"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplecol"/>
+                              <constantValue>
+                                <constantValueInt2 v="1 0"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="16 48 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1427148771"/>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="$pos"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-144 48 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1427148816"/>
+                          <function v="samplecol"/>
+                          <type v="2048"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1427148826"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplecol"/>
+                              <constantValue>
+                                <constantValueInt2 v="0 1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="336 48 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1427148826"/>
+                          <function v="swizzle2"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="vector"/>
+                              <connRef v="1427148763"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="176 48 0"/>
+                          </GUILayout>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1427148933"/>
+          <GUILayout>
+            <gpos v="112 112 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1427148934"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1427148932"/>
+              <parameters/>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1427148947"/>
+          <GUILayout>
+            <gpos v="-144 -80 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1427148948"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1427148946"/>
+              <parameters/>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1427154181"/>
+          <GUILayout>
+            <gpos v="112 -16 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1427154182"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input_1"/>
+              <connRef v="1427148947"/>
+              <connRefOutput v="1427148948"/>
+            </connection>
+            <connection>
+              <identifier v="input_2"/>
+              <connRef v="1427154201"/>
+              <connRefOutput v="1427154202"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///switch?dependency=1299239600"/>
+              <parameters>
+                <parameter>
+                  <name v="switch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1427154263"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1427154263"/>
+                          <function v="get_bool"/>
+                          <type v="4"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_bool"/>
+                              <constantValue>
+                                <constantValueString v="Color_Mode"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1427154182"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1427154190"/>
+          <GUILayout>
+            <gpos v="-144 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1427154191"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1427154189"/>
+              <parameters/>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1427154201"/>
+          <GUILayout>
+            <gpos v="16 -176 0"/>
+            <docked v="1"/>
+            <dockDistance v="96 160"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1427154202"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input1"/>
+              <connRef v="1427154190"/>
+              <connRefOutput v="1427154191"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compFilter>
+              <filter v="gradient"/>
+              <parameters/>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1427154286"/>
+          <GUILayout>
+            <gpos v="432 48 501"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1427148709"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1427154285"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1427154285"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
