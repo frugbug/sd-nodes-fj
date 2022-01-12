@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202105"/>
+  <updaterVersion v="1.1.0.202105"/>
+  <fileUID v="{0e1aa15b-349d-4826-8580-25c8ee817dc6}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://gradient_linear_1.sbs"/>
+      <uid v="1434341222"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://safe_transform.sbs"/>
+      <uid v="1272498971"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://rgba_merge.sbs"/>
+      <uid v="1147283951"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="empty_hald_clut"/>
+      <uid v="1434340255"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <category v="Filter"/>
+        <label v="Empty Hald CLUT"/>
+        <tags v="Adjustments, LUT"/>
+        <icon>
+          <datalength v="1381"/>
+          <format v="png"/>
+          <strdata v="AAAFZXic7ZRNaBNBFMc3VatWA0U8KciygqdmZ7O1aNYkTZqtJpCEkESbgAc3m0kyJPvB7oSsOZTgzZuIl0KxN+lJkBykR6F48iSKJ8+eRETwUASd2WzasElBPDvMzrz5v9++eTPs28eF/J3gwqUFhmGCmbRcJPOAPmfmyJi9/3ObTGfNdNVmmHMX6BN4/3nzF8OcGKJyBVdyWUk1NF6pGzXIO5rJ0BZddUxFbUPM1mAT6TGOY1E9xm2s5IScmYItlO5bsNTPl9V+W43UudV41JHIyxrECutoHd2WnBjnxpSITWXAsS6C2zEuSR1sJVdgU4YF2RX+ekgVBJEN84Lbllg6AreHBEFyO+s1Lh616g2pKN/2diKrGNfC2JQA6PV6fG+ZN6wmCEciESCIQBRDhAjZD3WsOCHdvuoFkKGtWsjEyNBZulZqRhfTk3r5a+ZhVN327ofcFHAUE5BEAQlDGCllQQUbVtkwOvFSt2ZjRVchS4Kjpg6tKPAzUeDb/K+ygQ5qzE6Hesb5UFtaJ8M9aNk0tCCKQhRMySOwgBzYqchIg7qrhsWbHuv3TPDVY/kJz7+dEaPGMWeknvEZqS1lNKUJN1Adt0ZZ+MUJKgv15jTmqSOuUoS20em6id4QPWxSHGHVWVh1CjsS7uoIx8egT55xRcD7rIl1WEzxo0qEOqnAHim1LXn3gGEClYycLDvbXz8mgwPm/Mk3aweJ+Tzz+8WTVztbH5LDPfXb3lv4+sfzVPPL98HTudqtndPPLi4OA+FT+51ENhC+vFhKvJvf/y/5pM387rVPS7XAFfojzKzn5ZdrDx79AV/7w7g="/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1434341380"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1434341267"/>
+          <GUILayout>
+            <gpos v="272 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341268"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///gradient_linear_1?dependency=1434341222"/>
+              <parameters>
+                <parameter>
+                  <name v="rotation"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1434341268"/>
+                  <identifier v="Simple_Gradient"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1434341278"/>
+          <GUILayout>
+            <gpos v="432 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341279"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1434341267"/>
+              <connRefOutput v="1434341268"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1272498971"/>
+              <parameters>
+                <parameter>
+                  <name v="tile"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="16"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1434341279"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1434341298"/>
+          <GUILayout>
+            <gpos v="272 272 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341299"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///gradient_linear_1?dependency=1434341222"/>
+              <parameters>
+                <parameter>
+                  <name v="rotation"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="2"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1434341299"/>
+                  <identifier v="Simple_Gradient"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1434341308"/>
+          <GUILayout>
+            <gpos v="432 176 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341309"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1434341298"/>
+              <connRefOutput v="1434341299"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1272498971"/>
+              <parameters>
+                <parameter>
+                  <name v="tile"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="256"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1434341309"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1434341335"/>
+          <GUILayout>
+            <gpos v="688 250.666672 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341336"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="R"/>
+              <connRef v="1434341278"/>
+              <connRefOutput v="1434341279"/>
+            </connection>
+            <connection>
+              <identifier v="G"/>
+              <connRef v="1434341308"/>
+              <connRefOutput v="1434341309"/>
+            </connection>
+            <connection>
+              <identifier v="B"/>
+              <connRef v="1434341298"/>
+              <connRefOutput v="1434341299"/>
+            </connection>
+            <connection>
+              <identifier v="A"/>
+              <connRef v="1434341358"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///rgba_merge?dependency=1147283951"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1434341336"/>
+                  <identifier v="RGBA_Merge"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1434341358"/>
+          <GUILayout>
+            <gpos v="496 304 0"/>
+            <docked v="1"/>
+            <dockDistance v="192 -117.333328"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341359"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1434341381"/>
+          <GUILayout>
+            <gpos v="848 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1434341335"/>
+              <connRefOutput v="1434341336"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1434341380"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters>
+        <parameter>
+          <name v="outputsize"/>
+          <relativeTo v="0"/>
+          <paramValue>
+            <constantValueInt2 v="12 12"/>
+          </paramValue>
+        </parameter>
+      </baseParameters>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1434341380"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
