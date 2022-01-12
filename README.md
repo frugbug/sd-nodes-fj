@@ -19,5 +19,16 @@ Stock blackbody node with an input map instead of uniform temperature value - no
 ## Base material (Extra)
 A modified base material node with some extra shader inputs, plus a preset for my own custom "clay" material I like to start with
 
+## Empty Hald CLUT
+Generates a blank/empty/plain/unmodified Hald CLUT
+
 ## Position remap
 Kind of a novelty node. Will distort an input based on a position map, haven't found a good use for it yet. Applying an effect to a position map and using this node can produce different and interesting results than applying the effect to the input.
+
+# Meshes
+**Big cylinder:** A big cylinder, a square material will wrap around it 6 times  
+**Double big cylinder:** Same as big cylinder, but twice as tall  
+**Cube (hi-res):** The default cube model but with extra geometry to allow the usage of the tesselation shader  
+**Multi Mesh:** The amazing MultiMesh™! Rounded cube, rounded cylinder, 2-tiles sphere, upright plane and flat plane all rolled into one!  
+**Thin cylinder:** A thin cylinder, a square material will only wrap around it once  
+**Upright plane:** Just an upright plane  
