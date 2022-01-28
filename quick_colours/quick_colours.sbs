@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202105"/>
+  <updaterVersion v="1.1.0.202105"/>
+  <fileUID v="{516f3e12-4366-4b63-bf6f-d4ebf418e9cf}"/>
+  <versionUID v="0"/>
+  <dependencies/>
+  <content>
+    <graph>
+      <identifier v="1g"/>
+      <uid v="1435422856"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <label v="1 (White) Greyscale"/>
+        <tags v="1g, white, greyscale, grayscale, quick, colours, colors"/>
+        <icon>
+          <datalength v="3477"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1435426546"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1435426547"/>
+          <GUILayout>
+            <gpos v="272 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1435426562"/>
+              <connRefOutput v="1435426563"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1435426546"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1435426562"/>
+          <GUILayout>
+            <gpos v="112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1435426563"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1435426546"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="0_5g"/>
+      <uid v="1435426615"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <label v="0.5 (Grey) Greyscale"/>
+        <tags v="0.5g, grey, gray, greyscale, grayscale, quick, colours, colors"/>
+        <icon>
+          <datalength v="3366"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1435426546"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1435426547"/>
+          <GUILayout>
+            <gpos v="272 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1435426562"/>
+              <connRefOutput v="1435426563"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1435426546"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1435426562"/>
+          <GUILayout>
+            <gpos v="112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1435426563"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="0.5 0.5 0.5 1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1435426546"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="0g"/>
+      <uid v="1435426589"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <label v="0 (Black) Greyscale"/>
+        <tags v="0g, black, greyscale, grayscale, quick, colours, colors"/>
+        <icon>
+          <datalength v="3318"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1435426546"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1435426547"/>
+          <GUILayout>
+            <gpos v="272 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1435426562"/>
+              <connRefOutput v="1435426563"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1435426546"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1435426562"/>
+          <GUILayout>
+            <gpos v="112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1435426563"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1435426546"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="1c"/>
+      <uid v="1435426663"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <label v="1 (White) Colour"/>
+        <tags v="1c, white, greyscale, grayscale, quick, colours, colors"/>
+        <icon>
+          <datalength v="3785"/>
+          <format v="png"/>
+          <strdata v="AAAOyXic1Zd5PFTrH8ePLfuELGMpc3VtdzBDuJoYyVizhQlZmjEGczEzzGgmF2OJouLXLUm2opAUpSGTXcz1s4Qpe0kKZU+JbL9R7vLq3vt6/V6//37P65znPOf7fZ/P832e53zPkuTkYCUuoiACAIC4jTXKmXuM2dqFeLm1nddSFvcgTLb2oACAqNTWztPzPHoNAPjKCa7uVHd7OwSOFKKD9SP54nXoIWRgqxib0slYXBCeCvHFBxCIJioqEIKfiYqbgT3cnmyODyRYR4ThXSIcXHERQbj9fiqmSGM6gntxCJ6KhdBDgokUBN1E5YsmgtveMsNUIF8QapCJitmWA+Ju7wQxJ4XhIQY6+to4OFwPoqsD/1K0IFs17MumDYcjvmyQ7aKCNA7z80c4oyy3e+KemagEUqlkBAxGo9F0aPt0SGEBMN39+/fD4HowPT1tLqFNOUmkYunaRMrebQEUnoILI5CpBBIRsnWO9SWFU7dGuh1/CPl3VSJle364MwWjY8kwbqAwrgyXQZiH4bFUUpgriRSMdAn3pVCxRBwewhUnBBDxYcawbxlj2Ded/1fR4OkE/78PZ8vzWzxbbYQFtzqKD6NsScP19ODGsL+Yv4JOBDo+2B1FCMETv1h19Yy22W89f+I9/pH/k+d/GyOV4P8PY9zy/DbGrTbCJgQbgHcj+FEDv0bxrfFPlB2eGPBXbNv6lXN3xlNIweFfAv1Rbxv7s/Er5vF3mMdfsD8MaCKBivwN/Mb8N1ME276tua3fkwn5RybiidwMpHFTLQNV9BkARKptUGau9KyZ7OPBns92s+vYoRuGhDCSNedUgXZt7GVDvmPB/RLnGssGMIpSPWT9rpxFOAF3u6Ihp8LETuj6jICk+ONTDwihpx8XXOcxDHl2xPa0t/Ngj+Gd0lU2IVAh7LlhyGLfxsyoUV9la02FYlwnNQrp+AnBTqEgJ0bWs0dqsCj+JKPqvLqDN/cKCFmKSJyThoA1D8KdYzA3gAZrnrgLvPz/pw5MPBYM6GXYqV0cZSuh0TwayXkaIqYb7615Too1Wd90Zt2dYuVYf1/ysRaMRhvYL66uXy1YiayF7Y1HLzOOvPrI9UklofQyvBrVqTTa6np03Uid/q40aIxblL7Cecv8tvex1500pEWeFyXaSmMqPsfG8gzxMn1KfJLQ9k7vunuAcIHbtxqbg6gEkV0X4WqhdP6BrA5Fedwo2Qgs9tPVo+Ppt4x4ErHcTnYfOKG1hxz5I7ZNIXjGl3bXDKcNff8dpWoYoyDI6U/P2yf/epLVGHsQogRKH5D54TCQizl+8k2aQCnpkUyNZ/fzzuoc34/ENqvCyeOn39Z72D2R8XFFM0tLn8x9Sqc6mfFSvVObfXuxhf+OF9Rfw4g+quHbc6IJTXpTLvm5iWibIuODPWfyaZiiuts1OaaZOeIUX7u6sH7AuO0jtKW0K/eTy7SR/ZM33pc5O394hYhJXe0ddFOcvy0x61EXzNx5jXkhhMFfe3RN1aHFoIVB0pJ1QTPzBOYHK1NWFYcW2iSIBO/OwdzTJlUJaHT3lHL3TRvgDHusGdY7DIOk2c7032sy9i59xd4ZbcHMnVjYwyILMNaNGNw3hZOfdFgV8GKtQ2binZoxU8Yk+2YQw/cXEGhsWQOvpmtwtgBRgu5+1sg61tXt7MtaijBOJd7Axi+1w6j53UUu6uSqGNcfZJJQy6HZcqlE39SPl4pqL8pNdphNP3v7rv2VsnOUQc7DXY4hsay8/okS9EB+JtzILr0QgCicTzx0PXlXfWZdVftQT8Lcx0v0ttyl8Y2TZ+52Gh2dfa21Q+rDuPpyq6Fxb/wPE1OJs4aR5Yok5dbcd6zZT6tycpRyIGiRVBzP0H50q7VqQMrnzJsToG67ig8CDV4g2ExeAWJ4RLwwqBJtPx1LXFsVWriScHcqEas1y0+UvTbFGlgjHT//qE8WuvaeEdgn7B6Uq+t//t08VHgKz5l7cVMup97bOwWEOPpqCjl9mOeg2sV72mPHeCLXRtl7LGm0k72VCMOZKERN1Kl2d17cueMHtc/cSmjCTiUbZuJIUcniM4HF5Zv9nf6RY5erAXUvKHcRmsdCo4c5rYY0aehaJV/fs1oXITOOvsUR4AoIaYcNG4/gOTUqppr4FqNgZTnf/Kzx5xAGM0jAvfIB61hZQXMtWDJbqalLI2zR/PACkFJc3ICBX7C+ciKf/fb60OS52Ab9HRyjzAa73nHvNKYYM8UU6L1VcvNF9Fqr1IlcyL6HykL8tolP7AQjkfQQZZ8ht+k2eMuh607NH7nLZ/qhwsD3o209YU1dSV5TfxMDd3eQOM55QDaafpCLU5UQms+ovs/vpye/+I6WnfysI0WVcuo1uD3NPuOAR/WVPI177sELLaAR1aWVyMhODeJTJm/7GNo+8FYl7PJexD6Hi+UrLmj0ipInqDqMm98ZrMaR6Hx56Kw0Jjt2qroodBlKOdUNTXCx5xCLZpPZGW2Ps3lLnqLzC/49GnDqNkdsca/TSgdDPrQQmJJwndKKiYFyEjhvbE88+m5Ys97WW6YavRQEUfHKlK3eOxXNw3zWHBfkQ8IKScWtCriXW8jWgxV+8tu5LFLmUOhSrp/OVE4Al+WxuviS1V8P+oITw2s9DvU+OCDgnpHV/EGpumIRbm5uP9qu6Rt81uB2OrtGHhe5mX36SNulUQee3rrIn2T3eZSUQY82dw04g+OyluyCPbL6D6Na/bjPwPdyJ91v+W2wtsRyms416deDH1UJnGc+lsuPNNa0AnYuyTjeTmGPLdCzCqdkbXxohYDFEXCb+nq2LjxCfgY6c1jv2qpaZISO6c5Jlo+D0a+sgYHeMwHKjYR47o1mqaOtZYPi4+NLxLr2FlTnaVwtWIAPvA3Nyq3fDVKVbxp3UNpjdhmAyJ5NE7OC9U/VBew2pN1f1V9qAhTrDq06jtXgqB8o7R7v+7iJy3F/7cBTXPx5PVrn5aBWz47YKyGowaayO4qMTf4BLeDx2AJK5ciwmdpF3UxT4M75jHsFvZZL9J175rB9/pPzQhapo2P79HWbgUnWHrEdcoyrBwSA+ZXI8dDPKp3eeZkzUsVgXGXFvjvatLXIaOl3c3OMjZWJbH4unYRqHx/xShUkWaznBdUkKpyYi5B1t7o3Nv1pTlJrdZco+Q5gz2knHFTOdxkrk6kXJjWL6s4/fIAFr6+vR0VFiVqKIS2sVCSnhlez7YtKT6yBAsSrGSWoG0+YvNIWwjviq+/3yA1suDwMCLlbMIjUDB0KyXHsqaKljldSLra+XpoZ6gj/fpy9LkDQrLzTmDqLFzdI8bFS/5eR5zKyAu8FjXHk8w9an6Z83zONzMWt1AqSN/RAN0R/ZCyE33BZGY9Ym8Y+3f/j5tmL+vSKa22ExXomLxB4VVaIn66ao8AWRDyfiOfMks3PT/SNdK4v7RYrEPV8XAHv+nzUeFViqKvzymKUgXl+/8k88k+Z6UJ9okI74v2hSP1z3uZ0ejyOq//ksGPPKnuhhaE5I5FWVNrC4Xmyj2fVIK01QXiQ8kvLeOUQb2xM+BFMcwcvOUrdiCbMJ1gUpRoyq/FLTueegTNWhi8nT3LBt8e7bmq247t7z+gk3HG5V8V3zPPt627ziTI3WJasTQW5DggCPUkSpYfDohefe1Giuj35wUNPGwzD6/dn3gSf7uw2RXaoF/Bp/CJ9yvahTepIEV5tV2+E5OCZXEZb+Q2WdkdC0nDbz5gXVxvAPy80y2WrAQ9rBTHR+6VFEpaTAyNAc0rNXMJR2dJqUW+kSD86zWfk9E6tpENrEXm/eg6P8BkloVSkktzT02bsP5y9NjHLbOuVdEjlKNM4DaONUO4LXwkklzqLTgZqGffrzcJlcoRfEkwXI+pKErPNq9xMH6+0Jbgt84kmiyGzbCUBNjvfyXNvDqiMbVh+VZWwPG1ccy93B+cK83uLRfXCSyVRrpcAEMMLxWBsxplG4g5UUEfvGiwfC7g3Gdf6WHpG6dAHsPh556XPp8M/LC1d3qy/lLwLOIxhG/Y4uVhUlvp7i1zaoSFeEi6gEETQabvb/nJQX8ehp1V3EmdUGTgnEFNcHNl/IfW2pvicyAVrP+FWiQqujM5olUcaFFiU9H+heHmpWg8oLn4/6oO8H/z2iuP0GEHtzdNW8ef8TvyamO+qPedLGNGYjV/tNo+3qLvZ8sSFMjRebSp9/eLaEEy61T9nj3Z7ufWzaWPhgLp7CBP3H6rfjwk="/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1435426546"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1435426547"/>
+          <GUILayout>
+            <gpos v="272 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1435426562"/>
+              <connRefOutput v="1435426563"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1435426546"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1435426562"/>
+          <GUILayout>
+            <gpos v="112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1435426563"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1435426546"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="0_5c"/>
+      <uid v="1435426675"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <label v="0.5 (Grey) Colour"/>
+        <tags v="0.5c, grey, gray, greyscale, grayscale, quick, colours, colors"/>
+        <icon>
+          <datalength v="3743"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1435426546"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1435426547"/>
+          <GUILayout>
+            <gpos v="272 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1435426562"/>
+              <connRefOutput v="1435426563"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1435426546"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1435426562"/>
+          <GUILayout>
+            <gpos v="112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1435426563"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="0.5 0.5 0.5 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1435426546"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="0c"/>
+      <uid v="1435426691"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <label v="0 (Black) Colour"/>
+        <tags v="0c, black, greyscale, grayscale, quick, colours, colors"/>
+        <icon>
+          <datalength v="3607"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1435426546"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1435426547"/>
+          <GUILayout>
+            <gpos v="272 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1435426562"/>
+              <connRefOutput v="1435426563"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1435426546"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1435426562"/>
+          <GUILayout>
+            <gpos v="112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1435426563"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1435426546"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
