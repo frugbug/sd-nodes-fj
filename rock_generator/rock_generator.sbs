@@ -76,20 +76,6 @@
       <fileUID v="0"/>
       <versionUID v="0"/>
     </dependency>
-    <dependency>
-      <filename v="sbs://hbao_2.sbs"/>
-      <uid v="1297162667"/>
-      <type v="package"/>
-      <fileUID v="0"/>
-      <versionUID v="0"/>
-    </dependency>
-    <dependency>
-      <filename v="sbs://pbr_base_material.sbs"/>
-      <uid v="1426555376"/>
-      <type v="package"/>
-      <fileUID v="0"/>
-      <versionUID v="0"/>
-    </dependency>
   </dependencies>
   <content>
     <graph>
@@ -534,242 +520,14 @@
           </defaultWidget>
         </paraminput>
       </paraminputs>
-      <graphOutputs/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1436459621"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
       <compNodes>
-        <compNode>
-          <uid v="1406535062"/>
-          <GUILayout>
-            <gpos v="1232 592 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1406535063"/>
-              <comptype v="1"/>
-            </compOutput>
-          </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input1"/>
-              <connRef v="1436285509"/>
-              <connRefOutput v="1436285510"/>
-            </connection>
-          </connections>
-          <compImplementation>
-            <compFilter>
-              <filter v="normal"/>
-              <parameters>
-                <parameter>
-                  <name v="input2alpha"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueBool v="0"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="intensity"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueFloat1 v="64"/>
-                  </paramValue>
-                </parameter>
-              </parameters>
-            </compFilter>
-          </compImplementation>
-        </compNode>
-        <compNode>
-          <uid v="1406538705"/>
-          <GUILayout>
-            <gpos v="1232 784 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1406538706"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input"/>
-              <connRef v="1436285509"/>
-              <connRefOutput v="1436285510"/>
-            </connection>
-          </connections>
-          <compImplementation>
-            <compInstance>
-              <path v="pkg:///hbao?dependency=1297162667"/>
-              <parameters>
-                <parameter>
-                  <name v="height_depth"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueFloat1 v="0.5"/>
-                  </paramValue>
-                </parameter>
-              </parameters>
-              <outputBridgings>
-                <outputBridging>
-                  <uid v="1406538706"/>
-                  <identifier v="output"/>
-                </outputBridging>
-              </outputBridgings>
-            </compInstance>
-          </compImplementation>
-        </compNode>
-        <compNode>
-          <uid v="1406540297"/>
-          <GUILayout>
-            <gpos v="1392 688 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1406540298"/>
-              <comptype v="1"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540299"/>
-              <comptype v="1"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540300"/>
-              <comptype v="1"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540301"/>
-              <comptype v="1"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540302"/>
-              <comptype v="2"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540303"/>
-              <comptype v="2"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540304"/>
-              <comptype v="2"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540305"/>
-              <comptype v="2"/>
-            </compOutput>
-            <compOutput>
-              <uid v="1406540306"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="normal_input"/>
-              <connRef v="1406535062"/>
-              <connRefOutput v="1406535063"/>
-            </connection>
-            <connection>
-              <identifier v="ambientOcclusion_input"/>
-              <connRef v="1406538705"/>
-              <connRefOutput v="1406538706"/>
-            </connection>
-            <connection>
-              <identifier v="height_input"/>
-              <connRef v="1436285509"/>
-              <connRefOutput v="1436285510"/>
-            </connection>
-          </connections>
-          <compImplementation>
-            <compInstance>
-              <path v="pkg:///pbr_base_material?dependency=1426555376"/>
-              <parameters>
-                <parameter>
-                  <name v="user_normal"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueBool v="1"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="user_ao"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueBool v="1"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="user_height"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueBool v="1"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="metallic"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueFloat1 v="0"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="basecolor"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueFloat3 v="0.75 0.75 0.75"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="roughness"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueFloat1 v="0.501960814"/>
-                  </paramValue>
-                </parameter>
-                <parameter>
-                  <name v="height_range"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <constantValueFloat1 v="1"/>
-                  </paramValue>
-                </parameter>
-              </parameters>
-              <outputBridgings>
-                <outputBridging>
-                  <uid v="1406540298"/>
-                  <identifier v="diffuse"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540299"/>
-                  <identifier v="basecolor"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540300"/>
-                  <identifier v="normal"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540301"/>
-                  <identifier v="specular"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540302"/>
-                  <identifier v="glossiness"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540303"/>
-                  <identifier v="roughness"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540304"/>
-                  <identifier v="metallic"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540305"/>
-                  <identifier v="height"/>
-                </outputBridging>
-                <outputBridging>
-                  <uid v="1406540306"/>
-                  <identifier v="ambientOcclusion"/>
-                </outputBridging>
-              </outputBridgings>
-            </compInstance>
-          </compImplementation>
-        </compNode>
         <compNode>
           <uid v="1436167169"/>
           <GUILayout>
@@ -1869,6 +1627,24 @@
             </compInstance>
           </compImplementation>
         </compNode>
+        <compNode>
+          <uid v="1436459622"/>
+          <GUILayout>
+            <gpos v="1232 688 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1436285509"/>
+              <connRefOutput v="1436285510"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1436459621"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
       </compNodes>
       <baseParameters>
         <parameter>
@@ -1889,7 +1665,15 @@
           <value v="bezier"/>
         </option>
       </options>
-      <root/>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1436459621"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
     </graph>
   </content>
 </package>
