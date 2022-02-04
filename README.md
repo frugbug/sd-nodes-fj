@@ -7,6 +7,9 @@ A node which will select an input based on random seed
 ## Luminance
 Very accuarate colour to greyscale conversion. Intended to replace the Luma function of the stock node "Greyscale Conversion Advanced"
 
+## Rock generator
+A rock generator with a few options. Everybody ends up making one of these at some point and this one is mine.
+
 ## Soft threshold
 Basically the same thing as histogram scan, but more intuitive and easier to use
 
