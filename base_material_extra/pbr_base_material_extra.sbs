@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202105"/>
-  <updaterVersion v="1.1.0.202105"/>
+  <formatVersion v="1.1.0.202201"/>
+  <updaterVersion v="1.1.0.202201"/>
   <fileUID v="{17116ce9-450f-4080-b474-0a2ec03d3edd}"/>
   <versionUID v="0"/>
   <dependencies>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202105"/>
-  <updaterVersion v="1.1.0.202105"/>
+  <formatVersion v="1.1.0.202201"/>
+  <updaterVersion v="1.1.0.202201"/>
   <fileUID v="{6a9c4a24-7ed6-4775-b420-9e850c1dd0d9}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://blend_switch.sbs"/>
-      <uid v="1278443577"/>
+      <uid v="1299239600"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -376,7 +376,7 @@
           </connections>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///switch?dependency=1278443577"/>
+              <path v="pkg:///switch?dependency=1299239600"/>
               <parameters>
                 <parameter>
                   <name v="switch"/>
