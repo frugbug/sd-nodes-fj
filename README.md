@@ -31,6 +31,12 @@ Kind of a novelty node. Will distort an input based on a position map, ~~haven't
 ## Non-uniform Blackbody
 Stock blackbody node with an input map instead of uniform temperature value - not too useful but could come in handy
 
+## 8bitifier
+Converts an input to 8bit, useful immediately before output nodes. Keeps file sizes down. Made this because it's quicker than dropping in any other node and fiddling with the bit depth dropdown.
+
+## Material Blend Custom
+Added an option to change normal blending mode (replace/combine) and added an opacity channel
+
 # Meshes
 **Big cylinder:** A big cylinder, a square material will wrap around it 6 times  
 **Double big cylinder:** Same as big cylinder, but twice as tall  
