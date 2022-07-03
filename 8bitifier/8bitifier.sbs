@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202201"/>
+  <updaterVersion v="1.1.0.202201"/>
+  <fileUID v="{53b25a8b-6ae1-4d14-a41c-b8d1d7695194}"/>
+  <versionUID v="0"/>
+  <dependencies/>
+  <content>
+    <graph>
+      <identifier v="8bitifier_grayscale"/>
+      <uid v="1437491377"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <label v="8bitifier Grayscale"/>
+        <icon>
+          <datalength v="3350"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="input"/>
+          <uid v="1437492289"/>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1437492289"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1437492310"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1437492290"/>
+          <GUILayout>
+            <gpos v="368 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1437492291"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1437492289"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1437492311"/>
+          <GUILayout>
+            <gpos v="528 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1437492290"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1437492310"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters>
+        <parameter>
+          <name v="format"/>
+          <relativeTo v="0"/>
+          <paramValue>
+            <constantValueInt32 v="0"/>
+          </paramValue>
+        </parameter>
+      </baseParameters>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="7x7"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1437492310"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="8bitifier_color"/>
+      <uid v="1437493582"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <label v="8bitifier Color"/>
+        <icon>
+          <datalength v="3481"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="input"/>
+          <uid v="1437493598"/>
+          <isConnectable v="1"/>
+          <type v="1"/>
+          <defaultValue>
+            <constantValueFloat4 v="0 0 0 1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1437493598"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1437492310"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1437492311"/>
+          <GUILayout>
+            <gpos v="528 240 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1437493599"/>
+              <connRefOutput v="1437493600"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1437492310"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1437493599"/>
+          <GUILayout>
+            <gpos v="368 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1437493600"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1437493598"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters>
+        <parameter>
+          <name v="format"/>
+          <relativeTo v="0"/>
+          <paramValue>
+            <constantValueInt32 v="0"/>
+          </paramValue>
+        </parameter>
+      </baseParameters>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="7x7"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1437492310"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
