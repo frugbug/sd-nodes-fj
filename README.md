@@ -37,6 +37,9 @@ Converts an input to 8bit, useful immediately before output nodes. Keeps file si
 ## Material Blend Custom
 Added an option to change normal blending mode (replace/combine) and added an opacity channel
 
+## Preview
+Plug a texture into this to show it in the 3D view without lighting. Especially useful when texturing a 3D mesh. Select the connection coming out of a node before creating this one to pass through the connection.
+
 # Meshes
 **Big cylinder:** A big cylinder, a square material will wrap around it 6 times  
 **Double big cylinder:** Same as big cylinder, but twice as tall  
