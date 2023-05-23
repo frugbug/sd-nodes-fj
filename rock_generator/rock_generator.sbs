@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202105"/>
-  <updaterVersion v="1.1.0.202105"/>
+  <formatVersion v="1.1.0.202204"/>
+  <updaterVersion v="1.1.0.202204"/>
   <fileUID v="{9f8f00a7-919d-4985-b2fa-25b7fdb871cf}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1436058484"/>
+      <uid v="1476883084"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -1669,7 +1669,7 @@
           </connections>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1436058484"/>
+              <path v="pkg:///auto_levels?dependency=1476883084"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
