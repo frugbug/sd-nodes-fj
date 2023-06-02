@@ -16,6 +16,9 @@ Basically the same thing as histogram scan, but more intuitive with less clutter
 ## Preview
 Plug a texture into this to show it in the 3D view without lighting. Especially useful when texturing a 3D mesh. Select the connection coming out of a node before creating this one to pass through the connection.
 
+## Get Average
+Returns the average value of a greyscale input.
+
 ## Grunge Master
 A node for performing common tiling/upscaling operations on bitmap grunges to make them more generally useful.
 
