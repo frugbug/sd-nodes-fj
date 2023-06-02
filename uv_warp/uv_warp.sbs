@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202204"/>
+  <updaterVersion v="1.1.0.202204"/>
+  <fileUID v="{6278d323-1b28-45f5-b734-d34d687bdefc}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://functions.sbs"/>
+      <uid v="1290776887"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="uv_warp"/>
+      <uid v="1477767468"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <category v="Filter"/>
+        <label v="UV Warp"/>
+        <author v="Luke MArchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Effect"/>
+        <description v="Distorts the first input's UV coordinates based on the second input."/>
+        <icon>
+          <datalength v="13951"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="Intensity"/>
+          <uid v="1477769275"/>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="0.1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="-0.1"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.001"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Angle"/>
+          <uid v="1477769315"/>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="angle"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="valueInterpretation"/>
+                <value v="angle"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Input"/>
+          <uid v="1477769566"/>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Warp_Input"/>
+          <uid v="1477770747"/>
+          <attributes>
+            <label v="Warp Input"/>
+          </attributes>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1477769566"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="Output"/>
+          <uid v="1477770764"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1477767916"/>
+          <GUILayout>
+            <gpos v="720 176 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1477767917"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1477769567"/>
+              <connRefOutput v="1477769568"/>
+            </connection>
+            <connection>
+              <identifier v="input:1"/>
+              <connRef v="1477770746"/>
+              <connRefOutput v="1477769568"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compFilter>
+              <filter v="pixelprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="perpixel"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1477767970"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1477767961"/>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="$pos"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-496 16 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477767970"/>
+                          <function v="samplelum"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1477768113"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplelum"/>
+                              <constantValue>
+                                <constantValueInt2 v="0 1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="880 16 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477767976"/>
+                          <function v="samplelum"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1477767961"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplelum"/>
+                              <constantValue>
+                                <constantValueInt2 v="1 1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-336 144 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768002"/>
+                          <function v="mul"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477767976"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477768009"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="-176 208 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768009"/>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="2"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-336 272 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768053"/>
+                          <function v="sub"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477768002"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477768061"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="-16 272 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768061"/>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-176 336 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768101"/>
+                          <function v="vector2"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="componentsin"/>
+                              <connRef v="1477768053"/>
+                            </connection>
+                            <connection>
+                              <identifier v="componentslast"/>
+                              <connRef v="1477768053"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="144 272 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768113"/>
+                          <function v="add"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477767961"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477768755"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="720 16 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768147"/>
+                          <function v="mulscalar"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477768101"/>
+                            </connection>
+                            <connection>
+                              <identifier v="scalar"/>
+                              <connRef v="1477769340"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="304 336 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768755"/>
+                          <function v="instance"/>
+                          <type v="118772"/>
+                          <connections>
+                            <connection>
+                              <identifier v="vec2"/>
+                              <connRef v="1477768147"/>
+                            </connection>
+                            <connection>
+                              <identifier v="angle"/>
+                              <connRef v="1477769443"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="instance"/>
+                              <constantValue>
+                                <constantValueString v="pkg:///Functions/Transforms/rotate_vec2?dependency=1290776887"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="464 400 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769340"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Intensity"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="144 400 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769354"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Angle"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="144 528 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769443"/>
+                          <function v="mul"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477769354"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477769450"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="304 592 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769450"/>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="-1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="144 656 0"/>
+                          </GUILayout>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1477769567"/>
+          <GUILayout>
+            <gpos v="560 112 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1477769568"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1477769566"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1477770746"/>
+          <GUILayout>
+            <gpos v="560 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1477769568"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1477770747"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1477770765"/>
+          <GUILayout>
+            <gpos v="880 176 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1477767916"/>
+              <connRefOutput v="1477767917"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1477770764"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1477770764"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="uv_warp_colour"/>
+      <uid v="1477788344"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <category v="Filter"/>
+        <label v="UV Warp Colour"/>
+        <author v="Luke MArchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Effect"/>
+        <description v="Distorts the first input's UV coordinates based on the second input."/>
+        <icon>
+          <datalength v="14273"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="Intensity"/>
+          <uid v="1477769275"/>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="0.1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="-0.1"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.001"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Angle"/>
+          <uid v="1477769315"/>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="angle"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="valueInterpretation"/>
+                <value v="angle"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Input"/>
+          <uid v="1477788718"/>
+          <isConnectable v="1"/>
+          <type v="1"/>
+          <defaultValue>
+            <constantValueFloat4 v="0 0 0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Warp_Input"/>
+          <uid v="1477770747"/>
+          <attributes>
+            <label v="Warp Input"/>
+          </attributes>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1477788718"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="Output"/>
+          <uid v="1477770764"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1477767916"/>
+          <GUILayout>
+            <gpos v="720 176 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1477767917"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <connections>
+            <connection>
+              <identifier v="input:1"/>
+              <connRef v="1477770746"/>
+              <connRefOutput v="1477769568"/>
+            </connection>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1477788719"/>
+              <connRefOutput v="1477788720"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compFilter>
+              <filter v="pixelprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="perpixel"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1477799268"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1477767961"/>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="$pos"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-496 16 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477767976"/>
+                          <function v="samplelum"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1477767961"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplelum"/>
+                              <constantValue>
+                                <constantValueInt2 v="1 1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-336 144 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768002"/>
+                          <function v="mul"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477767976"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477768009"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="-176 208 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768009"/>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="2"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-336 272 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768053"/>
+                          <function v="sub"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477768002"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477768061"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="-16 272 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768061"/>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="-176 336 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768101"/>
+                          <function v="vector2"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="componentsin"/>
+                              <connRef v="1477768053"/>
+                            </connection>
+                            <connection>
+                              <identifier v="componentslast"/>
+                              <connRef v="1477768053"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="144 272 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768113"/>
+                          <function v="add"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477767961"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477768755"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="720 16 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768147"/>
+                          <function v="mulscalar"/>
+                          <type v="512"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477768101"/>
+                            </connection>
+                            <connection>
+                              <identifier v="scalar"/>
+                              <connRef v="1477769340"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="304 336 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477768755"/>
+                          <function v="instance"/>
+                          <type v="118772"/>
+                          <connections>
+                            <connection>
+                              <identifier v="vec2"/>
+                              <connRef v="1477768147"/>
+                            </connection>
+                            <connection>
+                              <identifier v="angle"/>
+                              <connRef v="1477769443"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="instance"/>
+                              <constantValue>
+                                <constantValueString v="pkg:///Functions/Transforms/rotate_vec2?dependency=1290776887"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="464 400 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769340"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Intensity"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="144 400 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769354"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Angle"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="144 528 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769443"/>
+                          <function v="mul"/>
+                          <type v="256"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1477769354"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1477769450"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="304 592 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477769450"/>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="-1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="144 656 0"/>
+                          </GUILayout>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1477799268"/>
+                          <function v="samplecol"/>
+                          <type v="2048"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1477768113"/>
+                            </connection>
+                          </connections>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplecol"/>
+                              <constantValue>
+                                <constantValueInt2 v="0 1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                          <GUILayout>
+                            <gpos v="880 16 0"/>
+                          </GUILayout>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1477770746"/>
+          <GUILayout>
+            <gpos v="560 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1477769568"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1477770747"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1477770765"/>
+          <GUILayout>
+            <gpos v="880 176 0"/>
+          </GUILayout>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1477767916"/>
+              <connRefOutput v="1477767917"/>
+            </connection>
+          </connections>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1477770764"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1477788719"/>
+          <GUILayout>
+            <gpos v="560 112 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1477788720"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1477788718"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1477770764"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>

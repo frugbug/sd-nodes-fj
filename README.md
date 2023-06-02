@@ -4,23 +4,26 @@ Some custom nodes for Substance Designer
 ## Random switch
 A node which will select an input based on random seed
 
+## Preview
+Plug a texture into this to show it in the 3D view without lighting. Especially useful when texturing a 3D mesh. Select the connection coming out of a node before creating this one to pass through the connection.
+
 ## Luminance
-Very accuarate sRGB colour to greyscale conversion. Intended to replace the Luma function of the stock node "Greyscale Conversion Advanced"
+Very accurate sRGB colour to greyscale conversion. It's not super useful, but it's nicer to look at than other greyscale conversion methods.
 
 ## Rock generator
 A rock generator with a few options. Everybody ends up making one of these at some point and this one is mine.
-
-## Soft threshold
-Basically the same thing as histogram scan, but more intuitive with less clutter and better defaults.
-
-## Preview
-Plug a texture into this to show it in the 3D view without lighting. Especially useful when texturing a 3D mesh. Select the connection coming out of a node before creating this one to pass through the connection.
 
 ## Get Average
 Returns the average value of a greyscale input.
 
 ## Grunge Master
 A node for performing common tiling/upscaling operations on bitmap grunges to make them more generally useful.
+
+## Soft threshold
+Basically the same thing as histogram scan, but more intuitive with less clutter and better defaults.
+
+## UV Warp
+Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities.
 
 ## Wood grain
 Generates wood grain flowing in any direction. Not fantastic but can be used as a starting point
@@ -41,7 +44,7 @@ Converts an input to 8bit, useful immediately before output nodes. Keeps file si
 Added an option to change normal blending mode (replace/combine) and added an opacity channel
 
 ## Position remap
-Kind of a novelty node. Will distort an input based on a position map, ~~haven't found a good use for it yet~~ I've found it useful when compositing renders, after rendering a separate UV pass. Applying an effect to a position map and using this node can produce different and interesting results than applying the effect to the input.
+Kind of a novelty node. Will distort an input based on a position map, ~~haven't found a good use for it yet~~ I've found it useful when compositing renders, after rendering a separate UV pass. Applying an effect to a position map and using this node can produce interesting different results than applying the effect to the input.
 
 ## Quick Colours
 6 nodes which are basically presets for the uniform colour node. White, mid-grey and black (1, 0.5 and 0), in both colour and greyscale versions with lots of search tags. For example, "1g" will give you white in greyscale format. "0c" is black in colour format.
@@ -49,7 +52,7 @@ Kind of a novelty node. Will distort an input based on a position map, ~~haven't
 # Meshes
 **Big cylinder:** A big cylinder, a square material will wrap around it 6 times  
 **Double big cylinder:** Same as big cylinder, but twice as tall  
-**Cube (hi-res):** The default cube model but with extra geometry to allow the usage of the tesselation shader  
+**Cube (hi-res):** The default cube model but with extra geometry to allow the usage of the tessellation shader  
 **Multi Mesh:** The amazing MultiMesh™! Rounded cube, rounded cylinder, 2-tiles sphere, upright plane and flat plane all rolled into one!  
 **Thin cylinder:** A thin cylinder, a square material will only wrap around it once  
 **Upright plane:** Just an upright plane  
