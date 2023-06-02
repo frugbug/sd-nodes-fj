@@ -53,7 +53,7 @@
         <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
         <tags v="Noise"/>
-        <description v="Utility for tiling/upscaling grunge maps"/>
+        <description v="Utility for tiling/upscaling grunge maps."/>
         <icon>
           <datalength v="41250"/>
           <format v="png"/>
@@ -96,7 +96,7 @@
               </option>
               <option>
                 <name v="min"/>
-                <value v="0"/>
+                <value v="1"/>
               </option>
               <option>
                 <name v="step"/>
@@ -546,7 +546,7 @@
           </attributes>
           <type v="4"/>
           <defaultValue>
-            <constantValueBool v="0"/>
+            <constantValueBool v="1"/>
           </defaultValue>
           <defaultWidget>
             <name v="buttons"/>
@@ -557,7 +557,7 @@
               </option>
               <option>
                 <name v="default"/>
-                <value v="0"/>
+                <value v="1"/>
               </option>
               <option>
                 <name v="label0"/>
