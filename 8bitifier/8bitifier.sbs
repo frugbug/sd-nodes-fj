@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202204"/>
-  <updaterVersion v="1.1.0.202204"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{53b25a8b-6ae1-4d14-a41c-b8d1d7695194}"/>
   <versionUID v="0"/>
   <dependencies/>
@@ -106,15 +106,15 @@
         </compNode>
         <compNode>
           <uid v="1437492311"/>
-          <GUILayout>
-            <gpos v="528 240 0"/>
-          </GUILayout>
           <connections>
             <connection>
               <identifier v="inputNodeOutput"/>
               <connRef v="1437492290"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="528 240 0"/>
+          </GUILayout>
           <compImplementation>
             <compOutputBridge>
               <output v="1437492310"/>
@@ -184,9 +184,6 @@
       <compNodes>
         <compNode>
           <uid v="1437492311"/>
-          <GUILayout>
-            <gpos v="528 240 0"/>
-          </GUILayout>
           <connections>
             <connection>
               <identifier v="inputNodeOutput"/>
@@ -194,6 +191,9 @@
               <connRefOutput v="1437493600"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="528 240 0"/>
+          </GUILayout>
           <compImplementation>
             <compOutputBridge>
               <output v="1437492310"/>

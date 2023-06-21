@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202204"/>
-  <updaterVersion v="1.1.0.202204"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{0e1aa15b-349d-4826-8580-25c8ee817dc6}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://gradient_linear_1.sbs"/>
-      <uid v="1434341222"/>
+      <uid v="1478634413"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -63,7 +63,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///gradient_linear_1?dependency=1434341222"/>
+              <path v="pkg:///gradient_linear_1?dependency=1478634413"/>
               <parameters>
                 <parameter>
                   <name v="rotation"/>
@@ -84,6 +84,13 @@
         </compNode>
         <compNode>
           <uid v="1434341278"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1434341267"/>
+              <connRefOutput v="1434341268"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="432 48 0"/>
           </GUILayout>
@@ -93,13 +100,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input"/>
-              <connRef v="1434341267"/>
-              <connRefOutput v="1434341268"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compInstance>
               <path v="pkg:///safe_transform_grayscale?dependency=1272498971"/>
@@ -134,7 +134,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///gradient_linear_1?dependency=1434341222"/>
+              <path v="pkg:///gradient_linear_1?dependency=1478634413"/>
               <parameters>
                 <parameter>
                   <name v="rotation"/>
@@ -155,6 +155,13 @@
         </compNode>
         <compNode>
           <uid v="1434341308"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1434341298"/>
+              <connRefOutput v="1434341299"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="432 176 0"/>
           </GUILayout>
@@ -164,13 +171,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input"/>
-              <connRef v="1434341298"/>
-              <connRefOutput v="1434341299"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compInstance>
               <path v="pkg:///safe_transform_grayscale?dependency=1272498971"/>
@@ -194,15 +194,6 @@
         </compNode>
         <compNode>
           <uid v="1434341335"/>
-          <GUILayout>
-            <gpos v="688 250.666672 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1434341336"/>
-              <comptype v="1"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="R"/>
@@ -224,6 +215,15 @@
               <connRef v="1434341358"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="688 250.666672 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1434341336"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compInstance>
               <path v="pkg:///rgba_merge?dependency=1147283951"/>
@@ -273,9 +273,6 @@
         </compNode>
         <compNode>
           <uid v="1434341381"/>
-          <GUILayout>
-            <gpos v="848 240 0"/>
-          </GUILayout>
           <connections>
             <connection>
               <identifier v="inputNodeOutput"/>
@@ -283,6 +280,9 @@
               <connRefOutput v="1434341336"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="848 240 0"/>
+          </GUILayout>
           <compImplementation>
             <compOutputBridge>
               <output v="1434341380"/>

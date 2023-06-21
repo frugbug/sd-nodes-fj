@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202204"/>
-  <updaterVersion v="1.1.0.202204"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{9f8f00a7-919d-4985-b2fa-25b7fdb871cf}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1476883084"/>
+      <uid v="1479422456"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -50,7 +50,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://noise_clouds_2.sbs"/>
-      <uid v="1436079440"/>
+      <uid v="1479421666"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -695,15 +695,6 @@
         </compNode>
         <compNode>
           <uid v="1436174933"/>
-          <GUILayout>
-            <gpos v="112 336 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436174934"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="inputintensity"/>
@@ -716,6 +707,15 @@
               <connRefOutput v="1436175865"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="112 336 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436174934"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compFilter>
               <filter v="directionalwarp"/>
@@ -750,6 +750,13 @@
         </compNode>
         <compNode>
           <uid v="1436175864"/>
+          <connections>
+            <connection>
+              <identifier v="input1"/>
+              <connRef v="1436179496"/>
+              <connRefOutput v="1436179497"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="-48 272 0"/>
           </GUILayout>
@@ -759,13 +766,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input1"/>
-              <connRef v="1436179496"/>
-              <connRefOutput v="1436179497"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compFilter>
               <filter v="levels"/>
@@ -800,15 +800,6 @@
         </compNode>
         <compNode>
           <uid v="1436179496"/>
-          <GUILayout>
-            <gpos v="-208 272 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436179497"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="#random"/>
@@ -826,6 +817,15 @@
               <connRefOutput v="1436202460"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="-208 272 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436179497"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compFilter>
               <filter v="directionalwarp"/>
@@ -863,8 +863,6 @@
                       <paramNodes>
                         <paramNode>
                           <uid v="1436194968"/>
-                          <function v="mul"/>
-                          <type v="256"/>
                           <connections>
                             <connection>
                               <identifier v="b"/>
@@ -878,9 +876,14 @@
                           <GUILayout>
                             <gpos v="1264 336 0"/>
                           </GUILayout>
+                          <function v="mul"/>
+                          <type v="256"/>
                         </paramNode>
                         <paramNode>
                           <uid v="1436196778"/>
+                          <GUILayout>
+                            <gpos v="1104 400 0"/>
+                          </GUILayout>
                           <function v="get_float1"/>
                           <type v="256"/>
                           <funcDatas>
@@ -891,12 +894,12 @@
                               </constantValue>
                             </funcData>
                           </funcDatas>
-                          <GUILayout>
-                            <gpos v="1104 400 0"/>
-                          </GUILayout>
                         </paramNode>
                         <paramNode>
                           <uid v="1436396743"/>
+                          <GUILayout>
+                            <gpos v="1104 272 0"/>
+                          </GUILayout>
                           <function v="get_float1"/>
                           <type v="256"/>
                           <funcDatas>
@@ -907,9 +910,6 @@
                               </constantValue>
                             </funcData>
                           </funcDatas>
-                          <GUILayout>
-                            <gpos v="1104 272 0"/>
-                          </GUILayout>
                         </paramNode>
                       </paramNodes>
                     </dynamicValue>
@@ -949,8 +949,6 @@
                       <paramNodes>
                         <paramNode>
                           <uid v="1436180457"/>
-                          <function v="rand"/>
-                          <type v="256"/>
                           <connections>
                             <connection>
                               <identifier v="a"/>
@@ -960,9 +958,14 @@
                           <GUILayout>
                             <gpos v="816 336 0"/>
                           </GUILayout>
+                          <function v="rand"/>
+                          <type v="256"/>
                         </paramNode>
                         <paramNode>
                           <uid v="1436180485"/>
+                          <GUILayout>
+                            <gpos v="656 336 0"/>
+                          </GUILayout>
                           <function v="const_float1"/>
                           <type v="256"/>
                           <funcDatas>
@@ -973,9 +976,6 @@
                               </constantValue>
                             </funcData>
                           </funcDatas>
-                          <GUILayout>
-                            <gpos v="656 336 0"/>
-                          </GUILayout>
                         </paramNode>
                       </paramNodes>
                     </dynamicValue>
@@ -1033,6 +1033,13 @@
         </compNode>
         <compNode>
           <uid v="1436201394"/>
+          <connections>
+            <connection>
+              <identifier v="mask"/>
+              <connRef v="1436201338"/>
+              <connRefOutput v="1436201339"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="-848 208 0"/>
           </GUILayout>
@@ -1046,13 +1053,6 @@
               <comptype v="1"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="mask"/>
-              <connRef v="1436201338"/>
-              <connRefOutput v="1436201339"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compInstance>
               <path v="pkg:///flood_fill?dependency=1323881949"/>
@@ -1072,6 +1072,13 @@
         </compNode>
         <compNode>
           <uid v="1436201480"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1436201394"/>
+              <connRefOutput v="1436201395"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="-688 208 0"/>
           </GUILayout>
@@ -1081,13 +1088,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input"/>
-              <connRef v="1436201394"/>
-              <connRefOutput v="1436201395"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compInstance>
               <path v="pkg:///flood_fill_to_gradient_2?dependency=1323881949"/>
@@ -1111,15 +1111,6 @@
         </compNode>
         <compNode>
           <uid v="1436202459"/>
-          <GUILayout>
-            <gpos v="-368 272 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436202460"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="destination"/>
@@ -1132,6 +1123,15 @@
               <connRefOutput v="1436306035"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="-368 272 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436202460"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compFilter>
               <filter v="blend"/>
@@ -1173,15 +1173,6 @@
         </compNode>
         <compNode>
           <uid v="1436250419"/>
-          <GUILayout>
-            <gpos v="272 400 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436250420"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="input1"/>
@@ -1193,6 +1184,15 @@
               <connRefOutput v="1436250426"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="272 400 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436250420"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compFilter>
               <filter v="warp"/>
@@ -1270,7 +1270,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///clouds_2?dependency=1436079440"/>
+              <path v="pkg:///clouds_2?dependency=1479421666"/>
               <parameters>
                 <parameter>
                   <name v="outputsize"/>
@@ -1291,15 +1291,6 @@
         </compNode>
         <compNode>
           <uid v="1436255897"/>
-          <GUILayout>
-            <gpos v="752 688 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436255898"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="input"/>
@@ -1312,6 +1303,15 @@
               <connRefOutput v="1436255890"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="752 688 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436255898"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compInstance>
               <path v="pkg:///multi_directional_warp_grayscale?dependency=1436079316"/>
@@ -1352,15 +1352,6 @@
         </compNode>
         <compNode>
           <uid v="1436268601"/>
-          <GUILayout>
-            <gpos v="592 624 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436268602"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="source"/>
@@ -1373,6 +1364,15 @@
               <connRefOutput v="1436276264"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="592 624 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436268602"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compFilter>
               <filter v="blend"/>
@@ -1414,15 +1414,6 @@
         </compNode>
         <compNode>
           <uid v="1436276263"/>
-          <GUILayout>
-            <gpos v="432 464 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1436276264"/>
-              <comptype v="2"/>
-            </compOutput>
-          </compOutputs>
           <connections>
             <connection>
               <identifier v="Effect"/>
@@ -1435,6 +1426,15 @@
               <connRefOutput v="1436250420"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="432 464 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1436276264"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
           <compImplementation>
             <compInstance>
               <path v="pkg:///slope_blur_grayscale_2?dependency=1383860681"/>
@@ -1538,6 +1538,13 @@
         </compNode>
         <compNode>
           <uid v="1436285509"/>
+          <connections>
+            <connection>
+              <identifier v="input1"/>
+              <connRef v="1436330132"/>
+              <connRefOutput v="1436330133"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="1072 688 0"/>
           </GUILayout>
@@ -1547,13 +1554,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input1"/>
-              <connRef v="1436330132"/>
-              <connRefOutput v="1436330133"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compFilter>
               <filter v="levels"/>
@@ -1588,6 +1588,13 @@
         </compNode>
         <compNode>
           <uid v="1436306034"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1436201480"/>
+              <connRefOutput v="1436201481"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="-528 208 0"/>
           </GUILayout>
@@ -1597,13 +1604,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input"/>
-              <connRef v="1436201480"/>
-              <connRefOutput v="1436201481"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compInstance>
               <path v="pkg:///histogram_range?dependency=1335474785"/>
@@ -1651,6 +1651,13 @@
         </compNode>
         <compNode>
           <uid v="1436330132"/>
+          <connections>
+            <connection>
+              <identifier v="Input"/>
+              <connRef v="1436255897"/>
+              <connRefOutput v="1436255898"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="912 688 0"/>
           </GUILayout>
@@ -1660,16 +1667,9 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="Input"/>
-              <connRef v="1436255897"/>
-              <connRefOutput v="1436255898"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476883084"/>
+              <path v="pkg:///auto_levels?dependency=1479422456"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1682,9 +1682,6 @@
         </compNode>
         <compNode>
           <uid v="1436459622"/>
-          <GUILayout>
-            <gpos v="1232 688 0"/>
-          </GUILayout>
           <connections>
             <connection>
               <identifier v="inputNodeOutput"/>
@@ -1692,6 +1689,9 @@
               <connRefOutput v="1436285510"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="1232 688 0"/>
+          </GUILayout>
           <compImplementation>
             <compOutputBridge>
               <output v="1436459621"/>

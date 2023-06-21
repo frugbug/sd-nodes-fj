@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202204"/>
-  <updaterVersion v="1.1.0.202204"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{430f3210-3838-4e43-a1a9-3ff9fc402656}"/>
   <versionUID v="0"/>
   <dependencies/>
@@ -50,6 +50,12 @@
       <compNodes>
         <compNode>
           <uid v="1477768035"/>
+          <connections>
+            <connection>
+              <identifier v="input1"/>
+              <connRef v="1477768120"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="432 -144 0"/>
           </GUILayout>
@@ -59,12 +65,6 @@
               <comptype v="2"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input1"/>
-              <connRef v="1477768120"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compFilter>
               <filter v="transformation"/>
@@ -82,6 +82,12 @@
         </compNode>
         <compNode>
           <uid v="1477768049"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1477768035"/>
+            </connection>
+          </connections>
           <GUILayout>
             <gpos v="592 -144 0"/>
           </GUILayout>
@@ -91,12 +97,6 @@
               <comptype v="256"/>
             </compOutput>
           </compOutputs>
-          <connections>
-            <connection>
-              <identifier v="input"/>
-              <connRef v="1477768035"/>
-            </connection>
-          </connections>
           <compImplementation>
             <compFilter>
               <filter v="valueprocessor"/>
@@ -110,8 +110,6 @@
                       <paramNodes>
                         <paramNode>
                           <uid v="1477768059"/>
-                          <function v="samplelum"/>
-                          <type v="256"/>
                           <connections>
                             <connection>
                               <identifier v="pos"/>
@@ -121,9 +119,14 @@
                           <GUILayout>
                             <gpos v="976 336 0"/>
                           </GUILayout>
+                          <function v="samplelum"/>
+                          <type v="256"/>
                         </paramNode>
                         <paramNode>
                           <uid v="1477768065"/>
+                          <GUILayout>
+                            <gpos v="816 336 0"/>
+                          </GUILayout>
                           <function v="const_float2"/>
                           <type v="512"/>
                           <funcDatas>
@@ -134,9 +137,6 @@
                               </constantValue>
                             </funcData>
                           </funcDatas>
-                          <GUILayout>
-                            <gpos v="816 336 0"/>
-                          </GUILayout>
                         </paramNode>
                       </paramNodes>
                     </dynamicValue>
@@ -148,15 +148,15 @@
         </compNode>
         <compNode>
           <uid v="1477768112"/>
-          <GUILayout>
-            <gpos v="752 -144 0"/>
-          </GUILayout>
           <connections>
             <connection>
               <identifier v="inputNodeOutput"/>
               <connRef v="1477768049"/>
             </connection>
           </connections>
+          <GUILayout>
+            <gpos v="752 -144 0"/>
+          </GUILayout>
           <compImplementation>
             <compOutputBridge>
               <output v="1477768111"/>
