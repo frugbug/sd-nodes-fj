@@ -3,7 +3,7 @@
   <identifier v="Unsaved Package"/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
-  <fileUID v="{49ee7649-33cf-4bc5-87aa-a66ec3ba1656}"/>
+  <fileUID v="{525243ef-5f4d-4ada-8a0a-c6a0f575acbe}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
@@ -17,30 +17,139 @@
   <content>
     <graph>
       <identifier v="non_uniform_blackbody"/>
-      <uid v="1319399437"/>
+      <uid v="1481867161"/>
       <attributes>
         <category v="3D View"/>
-        <label v="Non Uniform Blackbody"/>
+        <label v="Non-Uniform Blackbody"/>
         <tags v="HDRI Tools"/>
-        <description v="Converts color temperature in Kelvin to RGB based on an input map."/>
+        <description v="Converts temperature in Kelvin to RGB based on an input map."/>
         <icon>
-          <datalength v="1749"/>
+          <datalength v="9396"/>
           <format v="png"/>
-          <strdata v="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"/>
+          <strdata v="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"/>
         </icon>
       </attributes>
       <paraminputs>
         <paraminput>
           <identifier v="input"/>
           <uid v="1431859546"/>
+          <attributes>
+            <label v="Input"/>
+          </attributes>
           <isConnectable v="1"/>
           <type v="2"/>
           <defaultValue>
-            <constantValueFloat1 v="0.111111112"/>
+            <constantValueFloat1 v="0"/>
           </defaultValue>
           <defaultWidget>
             <name v=""/>
             <options/>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="mode"/>
+          <uid v="1481867396"/>
+          <attributes>
+            <label v="Mode"/>
+          </attributes>
+          <type v="4"/>
+          <defaultValue>
+            <constantValueBool v="1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="buttons"/>
+            <options>
+              <option>
+                <name v="booleditortype"/>
+                <value v="pushbuttons"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="HDR (Straight Values)"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Normalised"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Normalised_Lower_Value"/>
+          <uid v="1481868350"/>
+          <attributes>
+            <label v="Normalised Lower Value"/>
+            <description v="The temperature in Kelvin represented by a value of 0 on the input map"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="1000"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1000"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="27000"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="1000"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="1"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Normalised_Upper_Value"/>
+          <uid v="1481868352"/>
+          <attributes>
+            <label v="Normalised Upper Value"/>
+            <description v="The temperature in Kelvin represented by a value of 1 on the input map"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="27000"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="27000"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="27000"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="1000"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="1"/>
+              </option>
+            </options>
           </defaultWidget>
         </paraminput>
       </paraminputs>
@@ -89,11 +198,11 @@
                           <connections>
                             <connection>
                               <identifier v="temperature"/>
-                              <connRef v="1431859818"/>
+                              <connRef v="1481868626"/>
                             </connection>
                           </connections>
                           <GUILayout>
-                            <gpos v="-624 -624 0"/>
+                            <gpos v="-752 -624 0"/>
                           </GUILayout>
                           <function v="instance"/>
                           <type v="1024"/>
@@ -119,7 +228,7 @@
                             </connection>
                           </connections>
                           <GUILayout>
-                            <gpos v="-464 -560 0"/>
+                            <gpos v="-592 -560 0"/>
                           </GUILayout>
                           <function v="vector4"/>
                           <type v="2048"/>
@@ -127,7 +236,7 @@
                         <paramNode>
                           <uid v="1352983299"/>
                           <GUILayout>
-                            <gpos v="-624 -496 0"/>
+                            <gpos v="-752 -496 0"/>
                           </GUILayout>
                           <function v="const_float1"/>
                           <type v="256"/>
@@ -149,15 +258,23 @@
                             </connection>
                           </connections>
                           <GUILayout>
-                            <gpos v="-944 -496 0"/>
+                            <gpos v="-1392 -496 0"/>
                           </GUILayout>
                           <function v="samplelum"/>
                           <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="samplelum"/>
+                              <constantValue>
+                                <constantValueInt2 v="0 1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
                         </paramNode>
                         <paramNode>
                           <uid v="1431859575"/>
                           <GUILayout>
-                            <gpos v="-1104 -496 0"/>
+                            <gpos v="-1552 -496 0"/>
                           </GUILayout>
                           <function v="get_float2"/>
                           <type v="512"/>
@@ -178,48 +295,86 @@
                               <connRef v="1431859567"/>
                             </connection>
                             <connection>
-                              <identifier v="b"/>
-                              <connRef v="1431859839"/>
+                              <identifier v="a"/>
+                              <connRef v="1481868597"/>
                             </connection>
                             <connection>
-                              <identifier v="a"/>
-                              <connRef v="1431859827"/>
+                              <identifier v="b"/>
+                              <connRef v="1481868612"/>
                             </connection>
                           </connections>
                           <GUILayout>
-                            <gpos v="-784 -624 0"/>
+                            <gpos v="-1232 -624 0"/>
                           </GUILayout>
                           <function v="lerp"/>
                           <type v="256"/>
                         </paramNode>
                         <paramNode>
-                          <uid v="1431859827"/>
+                          <uid v="1481868597"/>
                           <GUILayout>
-                            <gpos v="-944 -752 0"/>
+                            <gpos v="-1392 -752 0"/>
                           </GUILayout>
-                          <function v="const_float1"/>
+                          <function v="get_float1"/>
                           <type v="256"/>
                           <funcDatas>
                             <funcData>
-                              <name v="const_float1"/>
+                              <name v="get_float1"/>
                               <constantValue>
-                                <constantValueFloat1 v="0"/>
+                                <constantValueString v="Normalised_Lower_Value"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
                         </paramNode>
                         <paramNode>
-                          <uid v="1431859839"/>
+                          <uid v="1481868612"/>
                           <GUILayout>
-                            <gpos v="-944 -624 0"/>
+                            <gpos v="-1392 -624 0"/>
                           </GUILayout>
-                          <function v="const_float1"/>
+                          <function v="get_float1"/>
                           <type v="256"/>
                           <funcDatas>
                             <funcData>
-                              <name v="const_float1"/>
+                              <name v="get_float1"/>
                               <constantValue>
-                                <constantValueFloat1 v="27000"/>
+                                <constantValueString v="Normalised_Upper_Value"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1481868626"/>
+                          <connections>
+                            <connection>
+                              <identifier v="condition"/>
+                              <connRef v="1481868629"/>
+                            </connection>
+                            <connection>
+                              <identifier v="ifpath"/>
+                              <connRef v="1431859818"/>
+                            </connection>
+                            <connection>
+                              <identifier v="elsepath"/>
+                              <connRef v="1431859567"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="-912 -624 0"/>
+                          </GUILayout>
+                          <function v="ifelse"/>
+                          <type v="256"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1481868629"/>
+                          <GUILayout>
+                            <gpos v="-1072 -688 0"/>
+                          </GUILayout>
+                          <function v="get_bool"/>
+                          <type v="4"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_bool"/>
+                              <constantValue>
+                                <constantValueString v="mode"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>

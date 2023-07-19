@@ -41,7 +41,7 @@ Generates a blank/empty/plain/unmodified Hald CLUT.
 Very accurate sRGB colour to greyscale conversion. It's not super useful, but it's nicer to look at than other greyscale conversion methods.
 
 ## Non-uniform Blackbody
-Stock blackbody node with an input map instead of uniform temperature value - not too useful but could come in handy.
+Stock blackbody node with an input map instead of uniform temperature value. You can choose to set an upper and lower value for the map, or you can plug an HDR map in directly.
 
 ## 8bitifier
 Converts an input to 8bit, useful immediately before output nodes. Keeps file sizes down. Made this because it's quicker than dropping in any other node and fiddling with the bit depth dropdown.
