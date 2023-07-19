@@ -29,7 +29,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1476883084"/>
+      <uid v="1479422456"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -104,6 +104,39 @@
               </option>
             </options>
           </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="shape"/>
+          <uid v="1481882073"/>
+          <attributes>
+            <label v="Mask Shape"/>
+          </attributes>
+          <type v="4"/>
+          <defaultValue>
+            <constantValueBool v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="buttons"/>
+            <options>
+              <option>
+                <name v="booleditortype"/>
+                <value v="pushbuttons"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="Square"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Disc"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Tiling Settings"/>
         </paraminput>
         <paraminput>
           <identifier v="image_input_filtering"/>
@@ -607,7 +640,81 @@
                   <name v="Pattern"/>
                   <relativeTo v="0"/>
                   <paramValue>
-                    <constantValueInt32 v="8"/>
+                    <dynamicValue>
+                      <rootnode v="1481882427"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1481882201"/>
+                          <GUILayout>
+                            <gpos v="-48 16 0"/>
+                          </GUILayout>
+                          <function v="const_int1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_int1"/>
+                              <constantValue>
+                                <constantValueInt32 v="8"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1481882405"/>
+                          <GUILayout>
+                            <gpos v="-48 -112 0"/>
+                          </GUILayout>
+                          <function v="const_int1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_int1"/>
+                              <constantValue>
+                                <constantValueInt32 v="2"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1481882427"/>
+                          <connections>
+                            <connection>
+                              <identifier v="ifpath"/>
+                              <connRef v="1481882405"/>
+                            </connection>
+                            <connection>
+                              <identifier v="elsepath"/>
+                              <connRef v="1481882201"/>
+                            </connection>
+                            <connection>
+                              <identifier v="condition"/>
+                              <connRef v="1481882469"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="112 -112 0"/>
+                          </GUILayout>
+                          <function v="ifelse"/>
+                          <type v="16"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1481882469"/>
+                          <GUILayout>
+                            <gpos v="-48 -240 0"/>
+                          </GUILayout>
+                          <function v="get_bool"/>
+                          <type v="4"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_bool"/>
+                              <constantValue>
+                                <constantValueString v="shape"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
                   </paramValue>
                 </parameter>
                 <parameter>
@@ -1157,7 +1264,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476883084"/>
+              <path v="pkg:///auto_levels?dependency=1479422456"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1506,7 +1613,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476883084"/>
+              <path v="pkg:///auto_levels?dependency=1479422456"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
