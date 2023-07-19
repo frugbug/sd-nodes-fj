@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
+  <fileUID v="{2bb66ef3-623d-4f10-a308-aa4e2667b41b}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://gradient_linear_3.sbs"/>
+      <uid v="1480499699"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="pyramid_custom"/>
+      <uid v="1480498464"/>
+      <graphtype v="texture_generator"/>
+      <attributes>
+        <category v="Generator"/>
+        <label v="Pyramid Custom"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Pyramid"/>
+        <icon>
+          <datalength v="2091"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="position"/>
+          <uid v="1480499753"/>
+          <attributes>
+            <label v="Peak Position"/>
+          </attributes>
+          <type v="512"/>
+          <defaultValue>
+            <constantValueFloat2 v="0.5 0.5"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="position"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0.5;0.5"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1480500361"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1480499718"/>
+          <GUILayout>
+            <gpos v="816 400 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1480499719"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///gradient_linear_3?dependency=1480499699"/>
+              <parameters>
+                <parameter>
+                  <name v="position"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1480499817"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1480499810"/>
+                          <GUILayout>
+                            <gpos v="880 176 0"/>
+                          </GUILayout>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="position"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1480499817"/>
+                          <connections>
+                            <connection>
+                              <identifier v="vector"/>
+                              <connRef v="1480499810"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="1040 176 0"/>
+                          </GUILayout>
+                          <function v="swizzle1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="swizzle1"/>
+                              <constantValue>
+                                <constantValueInt1 v="1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1480499719"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1480499723"/>
+          <GUILayout>
+            <gpos v="816 272 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1480499719"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///gradient_linear_3?dependency=1480499699"/>
+              <parameters>
+                <parameter>
+                  <name v="rotation"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="position"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1480499786"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1480499784"/>
+                          <GUILayout>
+                            <gpos v="944 304 0"/>
+                          </GUILayout>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="position"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1480499786"/>
+                          <connections>
+                            <connection>
+                              <identifier v="vector"/>
+                              <connRef v="1480499784"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="1104 304 0"/>
+                          </GUILayout>
+                          <function v="swizzle1"/>
+                          <type v="256"/>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1480499719"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1480499733"/>
+          <connections>
+            <connection>
+              <identifier v="destination"/>
+              <connRef v="1480499718"/>
+              <connRefOutput v="1480499719"/>
+            </connection>
+            <connection>
+              <identifier v="source"/>
+              <connRef v="1480499723"/>
+              <connRefOutput v="1480499719"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="976 336 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1480499734"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend"/>
+              <parameters>
+                <parameter>
+                  <name v="blendingmode"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="6"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1480500362"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1480499733"/>
+              <connRefOutput v="1480499734"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1136 336 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1480500361"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1480500361"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
