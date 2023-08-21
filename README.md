@@ -25,6 +25,9 @@ Basically the same thing as histogram scan, but more intuitive with less clutter
 ## UV Warp
 Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities.
 
+## Scale & Bias
+Similar to Unreal Engine's ConstantBiasScale shader node. Primarily made to remap \[0,1\] data to \[-1,1\]. Can be fun for directional warps.
+
 ## Wood grain
 Generates wood grain flowing in any direction. Not fantastic but can be used as a starting point.
 

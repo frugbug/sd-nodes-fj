@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
+  <fileUID v="{b962f849-0e76-4fc6-8b7a-b73658b9035e}"/>
+  <versionUID v="0"/>
+  <dependencies/>
+  <content>
+    <graph>
+      <identifier v="scale_and_bias"/>
+      <uid v="1484645882"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <category v="Filter"/>
+        <label v="Scale &amp; Bias"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <description v="Similar to Unreal Engine ConstantBiasScale node. Primarily made to remap [0,1] data to [-1,1]. Can be fun for directional warps."/>
+        <icon>
+          <datalength v="4227"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="Scale"/>
+          <uid v="1484648817"/>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="2"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="2"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="2"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Bias"/>
+          <uid v="1484648943"/>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="-1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="-1"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="-1"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="HDR"/>
+          <uid v="1484649072"/>
+          <type v="16"/>
+          <defaultValue>
+            <constantValueInt1 v="1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="dropdownlist"/>
+            <options>
+              <option>
+                <name v="parameters"/>
+                <value v="1;0;Off;1;16 bit;2;32 bit"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="Input"/>
+          <uid v="1484649224"/>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1484649224"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="Output"/>
+          <uid v="1484649216"/>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1484648689"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1484649225"/>
+              <connRefOutput v="1484649226"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="880 208 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1484648690"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="pixelprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1484649175"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1484649157"/>
+                          <GUILayout>
+                            <gpos v="304 -16 0"/>
+                          </GUILayout>
+                          <function v="get_integer1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_integer1"/>
+                              <constantValue>
+                                <constantValueString v="HDR"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484649175"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1484649157"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1484649182"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="464 48 0"/>
+                          </GUILayout>
+                          <function v="add"/>
+                          <type v="16"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484649182"/>
+                          <GUILayout>
+                            <gpos v="304 112 0"/>
+                          </GUILayout>
+                          <function v="const_int1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_int1"/>
+                              <constantValue>
+                                <constantValueInt1 v="1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="perpixel"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1484648908"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1484648725"/>
+                          <GUILayout>
+                            <gpos v="-16 16 0"/>
+                          </GUILayout>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="$pos"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484648731"/>
+                          <connections>
+                            <connection>
+                              <identifier v="pos"/>
+                              <connRef v="1484648725"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="144 16 0"/>
+                          </GUILayout>
+                          <function v="samplelum"/>
+                          <type v="256"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484648738"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1484648731"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1484648898"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="304 80 0"/>
+                          </GUILayout>
+                          <function v="mul"/>
+                          <type v="256"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484648898"/>
+                          <GUILayout>
+                            <gpos v="144 144 0"/>
+                          </GUILayout>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="2"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484648908"/>
+                          <connections>
+                            <connection>
+                              <identifier v="a"/>
+                              <connRef v="1484648738"/>
+                            </connection>
+                            <connection>
+                              <identifier v="b"/>
+                              <connRef v="1484648914"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="464 144 0"/>
+                          </GUILayout>
+                          <function v="add"/>
+                          <type v="256"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1484648914"/>
+                          <GUILayout>
+                            <gpos v="304 208 0"/>
+                          </GUILayout>
+                          <function v="const_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="const_float1"/>
+                              <constantValue>
+                                <constantValueFloat1 v="-1"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1484649217"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1484648689"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1040 208 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1484649216"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1484649225"/>
+          <GUILayout>
+            <gpos v="720 208 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1484649226"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1484649224"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="9x9"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1484649216"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
