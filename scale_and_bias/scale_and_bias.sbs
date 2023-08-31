@@ -266,7 +266,7 @@
                             </connection>
                             <connection>
                               <identifier v="b"/>
-                              <connRef v="1484648898"/>
+                              <connRef v="1486498073"/>
                             </connection>
                           </connections>
                           <GUILayout>
@@ -274,22 +274,6 @@
                           </GUILayout>
                           <function v="mul"/>
                           <type v="256"/>
-                        </paramNode>
-                        <paramNode>
-                          <uid v="1484648898"/>
-                          <GUILayout>
-                            <gpos v="144 144 0"/>
-                          </GUILayout>
-                          <function v="const_float1"/>
-                          <type v="256"/>
-                          <funcDatas>
-                            <funcData>
-                              <name v="const_float1"/>
-                              <constantValue>
-                                <constantValueFloat1 v="2"/>
-                              </constantValue>
-                            </funcData>
-                          </funcDatas>
                         </paramNode>
                         <paramNode>
                           <uid v="1484648908"/>
@@ -300,7 +284,7 @@
                             </connection>
                             <connection>
                               <identifier v="b"/>
-                              <connRef v="1484648914"/>
+                              <connRef v="1486498085"/>
                             </connection>
                           </connections>
                           <GUILayout>
@@ -310,17 +294,33 @@
                           <type v="256"/>
                         </paramNode>
                         <paramNode>
-                          <uid v="1484648914"/>
+                          <uid v="1486498073"/>
                           <GUILayout>
-                            <gpos v="304 208 0"/>
+                            <gpos v="144 144 0"/>
                           </GUILayout>
-                          <function v="const_float1"/>
+                          <function v="get_float1"/>
                           <type v="256"/>
                           <funcDatas>
                             <funcData>
-                              <name v="const_float1"/>
+                              <name v="get_float1"/>
                               <constantValue>
-                                <constantValueFloat1 v="-1"/>
+                                <constantValueString v="Scale"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1486498085"/>
+                          <GUILayout>
+                            <gpos v="304 208 0"/>
+                          </GUILayout>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Bias"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
