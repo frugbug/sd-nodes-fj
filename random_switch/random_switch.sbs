@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Selects an input based on random seed."/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{e81f5c95-405e-402d-8b96-ad89f6f5e9b0}"/>
@@ -20,8 +21,12 @@
       <uid v="1431055885"/>
       <graphtype v="filter"/>
       <attributes>
+        <category v="Filter"/>
         <label v="Random Switch Grayscale"/>
-        <tags v="Blending"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Blending, FJ"/>
+        <description v="Selects an input based on random seed."/>
         <icon>
           <datalength v="6235"/>
           <format v="png"/>
@@ -420,7 +425,7 @@
         <compNode>
           <uid v="1431059614"/>
           <GUILayout>
-            <gpos v="-688 240 0"/>
+            <gpos v="-688 272 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -2010,8 +2015,12 @@
       <uid v="1431062698"/>
       <graphtype v="filter"/>
       <attributes>
+        <category v="Filter"/>
         <label v="Random Switch Color"/>
-        <tags v="Blending"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Blending, FJ"/>
+        <description v="Selects an input based on random seed."/>
         <icon>
           <datalength v="7904"/>
           <format v="png"/>

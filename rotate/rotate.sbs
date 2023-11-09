@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Rotates the input around a point."/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{ae86cfa2-f4a3-43f5-89c6-1399c422ba46}"/>
@@ -31,7 +32,8 @@
         <label v="Rotate Greyscale"/>
         <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Transformation"/>
+        <tags v="Transformation, FJ"/>
+        <description v="Rotates the input around a point."/>
         <icon>
           <datalength v="8465"/>
           <format v="png"/>
@@ -1448,7 +1450,8 @@
         <label v="Rotate Color"/>
         <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Transformation"/>
+        <tags v="Transformation, FJ"/>
+        <description v="Rotates the input around a point."/>
         <icon>
           <datalength v="8923"/>
           <format v="png"/>

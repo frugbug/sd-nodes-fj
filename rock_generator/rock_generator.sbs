@@ -8,7 +8,7 @@
   <dependencies>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1479422456"/>
+      <uid v="1476221368"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -86,7 +86,8 @@
         <category v="Generator"/>
         <label v="Rock Generator"/>
         <author v="Luke Marchant"/>
-        <tags v="Pattern"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Pattern, FJ"/>
         <icon>
           <datalength v="33312"/>
           <format v="png"/>
@@ -1669,7 +1670,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1479422456"/>
+              <path v="pkg:///auto_levels?dependency=1476221368"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>

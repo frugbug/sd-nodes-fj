@@ -36,7 +36,9 @@
       <attributes>
         <category v="Filter"/>
         <label v="Empty Hald CLUT"/>
-        <tags v="Adjustments, LUT"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Adjustments, LUT, FJ"/>
         <icon>
           <datalength v="1381"/>
           <format v="png"/>
@@ -111,6 +113,13 @@
                     <constantValueInt32 v="16"/>
                   </paramValue>
                 </parameter>
+                <parameter>
+                  <name v="mipmapmode"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="1"/>
+                  </paramValue>
+                </parameter>
               </parameters>
               <outputBridgings>
                 <outputBridging>
@@ -182,6 +191,13 @@
                     <constantValueInt32 v="256"/>
                   </paramValue>
                 </parameter>
+                <parameter>
+                  <name v="mipmapmode"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="1"/>
+                  </paramValue>
+                </parameter>
               </parameters>
               <outputBridgings>
                 <outputBridging>
@@ -240,7 +256,7 @@
         <compNode>
           <uid v="1434341358"/>
           <GUILayout>
-            <gpos v="496 304 0"/>
+            <gpos v="610 282.666687 0"/>
             <docked v="1"/>
             <dockDistance v="192 -117.333328"/>
           </GUILayout>
@@ -265,6 +281,13 @@
                   <relativeTo v="0"/>
                   <paramValue>
                     <constantValueFloat4 v="1 1 1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt2 v="4 4"/>
                   </paramValue>
                 </parameter>
               </parameters>

@@ -21,7 +21,9 @@
       <attributes>
         <category v="3D View"/>
         <label v="Non-Uniform Blackbody"/>
-        <tags v="HDRI Tools"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="HDRI Tools, FJ"/>
         <description v="Converts temperature in Kelvin to RGB based on an input map."/>
         <icon>
           <datalength v="9396"/>

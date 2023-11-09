@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Offsets the input along a set direction."/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{09b33b6e-f940-43db-a745-42ec1cabfdad}"/>
@@ -24,7 +25,8 @@
         <label v="Radial Offset Greyscale"/>
         <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Transformation"/>
+        <tags v="Transformation, FJ"/>
+        <description v="Offsets the input along a set direction."/>
         <icon>
           <datalength v="9469"/>
           <format v="png"/>
@@ -525,7 +527,8 @@
         <label v="Radial Offset Colour"/>
         <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Transformation"/>
+        <tags v="Transformation, FJ"/>
+        <description v="Offsets the input along a set direction."/>
         <icon>
           <datalength v="10652"/>
           <format v="png"/>

@@ -42,6 +42,8 @@
       <attributes>
         <category v="Material Filter"/>
         <label v="Base Material (Extra )"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
         <tags v="PBR Utilities"/>
         <description v="Used to create a base metal PBR material with options to work in metal-rough or specular-glossiness workflows. "/>
         <icon>
@@ -3542,7 +3544,7 @@
         <compNode>
           <uid v="1204025336"/>
           <GUILayout>
-            <gpos v="-848 894.936279 0"/>
+            <gpos v="-848 880 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>

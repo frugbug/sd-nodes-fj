@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Generates &quot;checker ball&quot; images to use as a base for library icons"/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{cf213896-ba90-4b6e-9012-9485385c206a}"/>
@@ -884,7 +885,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="-2256 80 0"/>
+            <gpos v="-1360 80 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
@@ -902,7 +903,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="-2256 720 0"/>
+            <gpos v="-1360 720 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>

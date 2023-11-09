@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <desc v="Quick, easy, simple and configurable wood grain"/>
+  <desc v="Generates wood grain flowing in any direction. Not fantastic but can be used as a starting point."/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{6f81268c-7aac-49b3-abe2-0ccaa8e85059}"/>
@@ -16,7 +16,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1479422456"/>
+      <uid v="1476221368"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -30,7 +30,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://blur_hq.sbs"/>
-      <uid v="1478717176"/>
+      <uid v="1299236171"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -44,7 +44,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://pattern_tile_generator.sbs"/>
-      <uid v="1476881654"/>
+      <uid v="1300408753"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -64,9 +64,11 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <category v="Generator"/>
-        <label v="Wood grain"/>
+        <label v="Wood Grain"/>
         <author v="Luke Marchant"/>
-        <description v="Quick, easy, simple and configurable wood grain"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="FJ"/>
+        <description v="Generates wood grain flowing in any direction. Not fantastic but can be used as a starting point."/>
         <icon>
           <datalength v="152051"/>
           <format v="png"/>
@@ -775,7 +777,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1479422456"/>
+              <path v="pkg:///auto_levels?dependency=1476221368"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -993,7 +995,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///blur_hq_grayscale?dependency=1478717176"/>
+              <path v="pkg:///blur_hq_grayscale?dependency=1299236171"/>
               <parameters>
                 <parameter>
                   <name v="Intensity"/>
@@ -1149,7 +1151,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///tile_generator?dependency=1476881654"/>
+              <path v="pkg:///tile_generator?dependency=1300408753"/>
               <parameters>
                 <parameter>
                   <name v="pattern"/>
@@ -1325,7 +1327,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///tile_generator?dependency=1476881654"/>
+              <path v="pkg:///tile_generator?dependency=1300408753"/>
               <parameters>
                 <parameter>
                   <name v="pattern"/>
@@ -1577,7 +1579,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///blur_hq_grayscale?dependency=1478717176"/>
+              <path v="pkg:///blur_hq_grayscale?dependency=1299236171"/>
               <parameters>
                 <parameter>
                   <name v="Intensity"/>
@@ -1672,7 +1674,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///blur_hq_grayscale?dependency=1478717176"/>
+              <path v="pkg:///blur_hq_grayscale?dependency=1299236171"/>
               <parameters>
                 <parameter>
                   <name v="Intensity"/>

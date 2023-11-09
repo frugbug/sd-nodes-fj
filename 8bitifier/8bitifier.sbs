@@ -13,6 +13,9 @@
       <graphtype v="filter"/>
       <attributes>
         <label v="8bitifier Grayscale"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Adjustments, FJ"/>
         <icon>
           <datalength v="3350"/>
           <format v="png"/>
@@ -153,6 +156,9 @@
       <graphtype v="filter"/>
       <attributes>
         <label v="8bitifier Color"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Adjustments, FJ"/>
         <icon>
           <datalength v="3481"/>
           <format v="png"/>

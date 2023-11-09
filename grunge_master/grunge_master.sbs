@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Utility for tiling/upscaling grunge maps"/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{32077e96-ac88-4b23-af05-6926adc8e68a}"/>
@@ -15,7 +16,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://pattern_tile_generator.sbs"/>
-      <uid v="1476881654"/>
+      <uid v="1300408753"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -29,7 +30,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1479422456"/>
+      <uid v="1476221368"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -52,8 +53,8 @@
         <label v="Grunge Master"/>
         <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Noise"/>
-        <description v="Utility for tiling/upscaling grunge maps."/>
+        <tags v="Transformation, FJ"/>
+        <description v="Utility for tiling/upscaling grunge maps"/>
         <icon>
           <datalength v="41250"/>
           <format v="png"/>
@@ -799,7 +800,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///tile_generator?dependency=1476881654"/>
+              <path v="pkg:///tile_generator?dependency=1300408753"/>
               <parameters>
                 <parameter>
                   <name v="pattern"/>
@@ -1264,7 +1265,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1479422456"/>
+              <path v="pkg:///auto_levels?dependency=1476221368"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1613,7 +1614,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1479422456"/>
+              <path v="pkg:///auto_levels?dependency=1476221368"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>

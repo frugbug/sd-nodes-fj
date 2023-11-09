@@ -21,6 +21,8 @@
       <graphtype v="filter"/>
       <attributes>
         <label v="Position Remap"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
         <icon>
           <datalength v="3887"/>
           <format v="png"/>

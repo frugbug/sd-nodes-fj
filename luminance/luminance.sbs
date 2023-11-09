@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Accurate sRGB luminance"/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{47150a56-a33b-4346-9d00-bdf4badc5a97}"/>
@@ -12,7 +13,12 @@
       <uid v="1429146402"/>
       <graphtype v="filter"/>
       <attributes>
+        <category v="Filter"/>
         <label v="Luminance"/>
+        <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Adjustments, FJ"/>
+        <description v="Accurate sRGB luminance"/>
         <icon>
           <datalength v="6364"/>
           <format v="png"/>

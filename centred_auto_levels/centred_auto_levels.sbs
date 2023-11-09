@@ -69,8 +69,11 @@
       <uid v="1491522043"/>
       <graphtype v="filter"/>
       <attributes>
+        <category v="Filter"/>
         <label v="Centred Auto Levels Greyscale"/>
         <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Adjustments, FJ"/>
         <icon>
           <datalength v="13170"/>
           <format v="png"/>
@@ -514,8 +517,11 @@
       <uid v="1491535911"/>
       <graphtype v="filter"/>
       <attributes>
+        <category v="Filter"/>
         <label v="Centred Auto Levels Colour"/>
         <author v="Luke Marchant"/>
+        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <tags v="Adjustments, FJ"/>
         <icon>
           <datalength v="16378"/>
           <format v="png"/>

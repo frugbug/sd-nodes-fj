@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
+  <desc v="Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities."/>
   <formatVersion v="1.1.0.202302"/>
   <updaterVersion v="1.1.0.202302"/>
   <fileUID v="{6278d323-1b28-45f5-b734-d34d687bdefc}"/>
@@ -22,10 +23,10 @@
       <attributes>
         <category v="Filter"/>
         <label v="UV Warp"/>
-        <author v="Luke MArchant"/>
+        <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Effect"/>
-        <description v="Distorts the first input's UV coordinates based on the second input."/>
+        <tags v="Effect, FJ"/>
+        <description v="Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities."/>
         <icon>
           <datalength v="13951"/>
           <format v="png"/>
@@ -626,10 +627,10 @@
       <attributes>
         <category v="Filter"/>
         <label v="UV Warp Colour"/>
-        <author v="Luke MArchant"/>
+        <author v="Luke Marchant"/>
         <authorURL v="https://www.artstation.com/luke-marchant"/>
-        <tags v="Effect"/>
-        <description v="Distorts the first input's UV coordinates based on the second input."/>
+        <tags v="Effect, FJ"/>
+        <description v="Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities."/>
         <icon>
           <datalength v="14273"/>
           <format v="png"/>
