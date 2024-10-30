@@ -35,7 +35,7 @@ Basically the same thing as histogram scan, but more intuitive with less clutter
 Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities.
 
 ## Greyscale to Mask
-Just like the Histogram Scan node, but with a colour picker, like the stock Colour to Mask node.
+Just like the Histogram Select node, but with a colour picker, like the stock Colour to Mask node.
 
 ## Scale & Bias
 Similar to Unreal Engine's ConstantBiasScale shader node. Primarily made to remap \[0,1\] data to \[-1,1\]. Can be fun for directional warps.
