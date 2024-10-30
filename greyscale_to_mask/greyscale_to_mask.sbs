@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202302"/>
+  <updaterVersion v="1.1.0.202302"/>
+  <fileUID v="{a9964afb-1441-4555-85d8-182938fee1e9}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://histogram_select.sbs"/>
+      <uid v="1492108103"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="greyscale_to_mask"/>
+      <uid v="1492108027"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <category v="Filter"/>
+        <label v="Greyscale to Mask"/>
+        <tags v="Adjustments, FJ"/>
+        <icon>
+          <datalength v="6563"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="position"/>
+          <uid v="1492108192"/>
+          <attributes>
+            <label v="Position"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0.5"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="color"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0.5"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="valueInterpretation"/>
+                <value v="color"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="range"/>
+          <uid v="1492108201"/>
+          <attributes>
+            <label v="Range"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0.25"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0.25"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="constrast"/>
+          <uid v="1492108206"/>
+          <attributes>
+            <label v="Contrast"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="input"/>
+          <uid v="1492108223"/>
+          <attributes>
+            <label v="Input"/>
+          </attributes>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1492108223"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1492108227"/>
+          <attributes>
+            <label v="Output"/>
+          </attributes>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1492108142"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1492108224"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="656 368 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1492108143"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///histogram_select?dependency=1492108103"/>
+              <parameters>
+                <parameter>
+                  <name v="position"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1492108193"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1492108193"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="position"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="range"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1492108202"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1492108202"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="range"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="constrast"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1492108207"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1492108207"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="constrast"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1492108143"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1492108224"/>
+          <GUILayout>
+            <gpos v="368 368 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1492108225"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1492108223"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1492108228"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1492108142"/>
+              <connRefOutput v="1492108143"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="944 368 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1492108227"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1492108227"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>

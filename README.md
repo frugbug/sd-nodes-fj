@@ -13,6 +13,9 @@ Returns the average value of a greyscale input.
 ## Rotate
 Rotates the input around a point.
 
+## RGB to HSV/HSV to RGB
+Converts between RGB and HSV colour spaces. Super useful for colour matching textures or adding variations to hue, saturation etc.
+
 ## Radial Offset
 Offsets the input along a set direction.
 
@@ -30,6 +33,9 @@ Basically the same thing as histogram scan, but more intuitive with less clutter
 
 ## UV Warp
 Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities.
+
+## Greyscale to Mask
+Just like the Histogram Scan node, but with a colour picker, like the stock Colour to Mask node.
 
 ## Scale & Bias
 Similar to Unreal Engine's ConstantBiasScale shader node. Primarily made to remap \[0,1\] data to \[-1,1\]. Can be fun for directional warps.
@@ -57,6 +63,9 @@ Converts an input to 8bit, useful immediately before output nodes. Keeps file si
 
 ## Icon Base
 For creating icons for custom nodes, it generates the grey/red checkered circles used in most stock node library icons.
+
+## Highpass HQ
+A version of the stock Highpass node using a high quality blur.
 
 ## Pyramid Custom
 Allows the user to choose a custom peak position for the pyramid.
