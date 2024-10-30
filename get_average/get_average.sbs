@@ -15,8 +15,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Get Average"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Adjustments"/>
         <description v="Returns the average value of a greyscale input"/>
         <icon>

@@ -23,8 +23,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Random Switch Grayscale"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Blending, FJ"/>
         <description v="Selects an input based on random seed."/>
         <icon>
@@ -2017,8 +2017,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Random Switch Color"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Blending, FJ"/>
         <description v="Selects an input based on random seed."/>
         <icon>

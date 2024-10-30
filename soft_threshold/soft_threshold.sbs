@@ -15,8 +15,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Soft Threshold"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Adjustments, FJ"/>
         <description v="Basically the same thing as histogram scan, but more intuitive with less clutter and better defaults."/>
         <icon>

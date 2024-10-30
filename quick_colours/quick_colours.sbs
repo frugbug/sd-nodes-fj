@@ -13,8 +13,8 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <label v="1 (White) Greyscale"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="1g, white, greyscale, grayscale, quick, colours, colors"/>
         <icon>
           <datalength v="3477"/>
@@ -112,8 +112,8 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <label v="0.5 (Grey) Greyscale"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="0.5g, grey, gray, greyscale, grayscale, quick, colours, colors"/>
         <icon>
           <datalength v="3366"/>
@@ -211,8 +211,8 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <label v="0 (Black) Greyscale"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="0g, black, greyscale, grayscale, quick, colours, colors"/>
         <icon>
           <datalength v="3318"/>
@@ -303,8 +303,8 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <label v="1 (White) Colour"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="1c, white, greyscale, grayscale, quick, colours, colors"/>
         <icon>
           <datalength v="3785"/>
@@ -400,8 +400,8 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <label v="0.5 (Grey) Colour"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="0.5c, grey, gray, greyscale, grayscale, quick, colours, colors"/>
         <icon>
           <datalength v="3743"/>
@@ -497,8 +497,8 @@
       <graphtype v="texture_generator"/>
       <attributes>
         <label v="0 (Black) Colour"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="0c, black, greyscale, grayscale, quick, colours, colors"/>
         <icon>
           <datalength v="3607"/>

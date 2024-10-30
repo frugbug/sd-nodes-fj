@@ -37,8 +37,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Soft Warp Greyscale"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Effect, FJ"/>
         <description v="Just like the atomic Warp node except it contains a &quot;softening&quot; control to avoid introducing noise. Good for warps which use large, soft shapes."/>
         <icon>
@@ -837,8 +837,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Soft Warp Colour"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Effect, FJ"/>
         <description v="Just like the atomic Warp node except it contains a &quot;softening&quot; control to avoid introducing noise. Good for warps which use large, soft shapes."/>
         <icon>

@@ -30,8 +30,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Rotate Greyscale"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Transformation, FJ"/>
         <description v="Rotates the input around a point."/>
         <icon>
@@ -1448,8 +1448,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Rotate Color"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Transformation, FJ"/>
         <description v="Rotates the input around a point."/>
         <icon>

@@ -15,8 +15,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="Scale &amp; Bias"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Adjustments, FJ"/>
         <description v="Similar to Unreal Engine ConstantBiasScale node. Primarily made to remap [0,1] data to [-1,1]. Can be fun for directional warps."/>
         <icon>

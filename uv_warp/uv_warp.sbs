@@ -23,8 +23,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="UV Warp"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Effect, FJ"/>
         <description v="Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities."/>
         <icon>
@@ -627,8 +627,8 @@
       <attributes>
         <category v="Filter"/>
         <label v="UV Warp Colour"/>
-        <author v="Luke Marchant"/>
-        <authorURL v="https://www.artstation.com/luke-marchant"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Effect, FJ"/>
         <description v="Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities."/>
         <icon>
