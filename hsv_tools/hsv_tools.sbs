@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{2601d79a-336d-46d9-8f1e-51491d89c2ed}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://functions.sbs"/>
-      <uid v="1290776887"/>
+      <uid v="1508498669"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -210,7 +210,7 @@
                             <funcData>
                               <name v="instance"/>
                               <constantValue>
-                                <constantValueString v="pkg:///Functions/colorValues/RGBtoHSV?dependency=1290776887"/>
+                                <constantValueString v="pkg:///Functions/colorValues/RGBtoHSV?dependency=1508498669"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -534,7 +534,7 @@
                             <funcData>
                               <name v="instance"/>
                               <constantValue>
-                                <constantValueString v="pkg:///Functions/colorValues/HSVtoRGB?dependency=1290776887"/>
+                                <constantValueString v="pkg:///Functions/colorValues/HSVtoRGB?dependency=1508498669"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>

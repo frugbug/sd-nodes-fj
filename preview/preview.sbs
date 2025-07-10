@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{3385fcaa-cc0f-4d12-ba46-c4569461a3ba}"/>
   <versionUID v="0"/>
   <dependencies/>
@@ -16,7 +16,7 @@
         <label v="Preview Greyscale"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="PBR Utilities, FJ"/>
+        <tags v="PBR Utilities, FB"/>
         <icon>
           <datalength v="6295"/>
           <format v="png"/>
@@ -416,7 +416,7 @@
         <label v="Preview Colour"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="PBR Utilities, FJ"/>
+        <tags v="PBR Utilities, FB"/>
         <icon>
           <datalength v="5605"/>
           <format v="png"/>

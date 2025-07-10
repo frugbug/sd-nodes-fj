@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Utility for tiling/upscaling grunge maps"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{32077e96-ac88-4b23-af05-6926adc8e68a}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -30,7 +30,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1476221368"/>
+      <uid v="1534614134"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -1265,7 +1265,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476221368"/>
+              <path v="pkg:///auto_levels?dependency=1534614134"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1614,7 +1614,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476221368"/>
+              <path v="pkg:///auto_levels?dependency=1534614134"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>

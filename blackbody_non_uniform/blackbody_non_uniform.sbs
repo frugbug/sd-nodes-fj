@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{525243ef-5f4d-4ada-8a0a-c6a0f575acbe}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://functions.sbs"/>
-      <uid v="1290776887"/>
+      <uid v="1508498669"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -23,7 +23,7 @@
         <label v="Non-Uniform Blackbody"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="HDRI Tools, FJ"/>
+        <tags v="HDRI Tools, FB"/>
         <description v="Converts temperature in Kelvin to RGB based on an input map."/>
         <icon>
           <datalength v="9396"/>
@@ -212,7 +212,7 @@
                             <funcData>
                               <name v="instance"/>
                               <constantValue>
-                                <constantValueString v="pkg:///Functions/colorValues/temperature_to_rgb?dependency=1290776887"/>
+                                <constantValueString v="pkg:///Functions/colorValues/temperature_to_rgb?dependency=1508498669"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>

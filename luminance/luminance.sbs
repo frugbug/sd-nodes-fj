@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Accurate sRGB luminance"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{47150a56-a33b-4346-9d00-bdf4badc5a97}"/>
   <versionUID v="0"/>
   <dependencies/>

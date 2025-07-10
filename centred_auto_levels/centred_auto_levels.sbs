@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{1bea9b83-5e6d-4d56-8de8-63604fdcaa74}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -22,7 +22,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://rgba_split.sbs"/>
-      <uid v="1491536070"/>
+      <uid v="1147283954"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -73,7 +73,7 @@
         <label v="Centred Auto Levels Greyscale"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="13170"/>
           <format v="png"/>
@@ -521,7 +521,7 @@
         <label v="Centred Auto Levels Colour"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="16378"/>
           <format v="png"/>
@@ -666,7 +666,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///rgba_split?dependency=1491536070"/>
+              <path v="pkg:///rgba_split?dependency=1147283954"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -2220,7 +2220,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///rgba_split?dependency=1491536070"/>
+              <path v="pkg:///rgba_split?dependency=1147283954"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>

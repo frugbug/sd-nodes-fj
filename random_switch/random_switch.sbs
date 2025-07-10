@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Selects an input based on random seed."/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{e81f5c95-405e-402d-8b96-ad89f6f5e9b0}"/>
   <versionUID v="0"/>
   <dependencies>

@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Just like the atomic Warp node except it contains a &quot;softening&quot; control to avoid introducing noise. Good for warps which use large, soft shapes."/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{6c5a6d09-00ef-4137-8034-50826c5bb950}"/>
   <versionUID v="0"/>
   <dependencies>

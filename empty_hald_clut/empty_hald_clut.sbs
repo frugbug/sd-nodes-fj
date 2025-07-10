@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{0e1aa15b-349d-4826-8580-25c8ee817dc6}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -38,7 +38,7 @@
         <label v="Empty Hald CLUT"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Adjustments, LUT, FJ"/>
+        <tags v="Adjustments, LUT, FB"/>
         <icon>
           <datalength v="1381"/>
           <format v="png"/>

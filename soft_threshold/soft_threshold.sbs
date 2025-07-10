@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Basically the same thing as histogram scan, but more intuitive with less clutter and better defaults."/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{bd95cc7d-66f5-459f-a4d9-9f4b27d4b57e}"/>
   <versionUID v="0"/>
   <dependencies/>
@@ -17,7 +17,7 @@
         <label v="Soft Threshold"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <description v="Basically the same thing as histogram scan, but more intuitive with less clutter and better defaults."/>
         <icon>
           <datalength v="5276"/>

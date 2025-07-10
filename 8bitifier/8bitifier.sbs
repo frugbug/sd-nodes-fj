@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{53b25a8b-6ae1-4d14-a41c-b8d1d7695194}"/>
   <versionUID v="0"/>
   <dependencies/>
@@ -15,7 +15,7 @@
         <label v="8bitifier Grayscale"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="3350"/>
           <format v="png"/>
@@ -158,7 +158,7 @@
         <label v="8bitifier Color"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="3481"/>
           <format v="png"/>

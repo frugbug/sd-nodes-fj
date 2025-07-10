@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{d59529d7-b903-489b-8749-d1a7b32e9765}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -36,7 +36,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://rgb-a_split.sbs"/>
-      <uid v="1492342635"/>
+      <uid v="1412088167"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -64,7 +64,7 @@
     </dependency>
     <dependency>
       <filename v="../centred_auto_levels/centred_auto_levels.sbs"/>
-      <uid v="1492266625"/>
+      <uid v="1544222591"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -79,7 +79,7 @@
         <category v="Filter"/>
         <label v="Highpass HQ Greyscale"/>
         <author v="Laura Marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="9995"/>
           <format v="png"/>
@@ -399,7 +399,7 @@
         <category v="Filter"/>
         <label v="Highpass HQ Colour"/>
         <author v="Laura Marchant"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="11507"/>
           <format v="png"/>
@@ -849,7 +849,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///rgb-a_split?dependency=1492342635"/>
+              <path v="pkg:///rgb-a_split?dependency=1412088167"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1285,7 +1285,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///centred_auto_levels_colour?dependency=1492266625"/>
+              <path v="pkg:///centred_auto_levels_colour?dependency=1544222591"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1355,7 +1355,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///centred_auto_levels_colour?dependency=1492266625"/>
+              <path v="pkg:///centred_auto_levels_colour?dependency=1544222591"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>

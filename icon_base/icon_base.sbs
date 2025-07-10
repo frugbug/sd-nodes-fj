@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Generates &quot;checker ball&quot; images to use as a base for library icons"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{cf213896-ba90-4b6e-9012-9485385c206a}"/>
   <versionUID v="0"/>
   <dependencies>

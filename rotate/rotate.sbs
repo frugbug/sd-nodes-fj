@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Rotates the input around a point."/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{ae86cfa2-f4a3-43f5-89c6-1399c422ba46}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -1393,7 +1393,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-3221.33325 458.666656 -100"/>
+            <gpos v="-3219.33008 478.666992 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="Repeat"/>
@@ -1403,7 +1403,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-3221.33325 597.333313 -100"/>
+            <gpos v="-3219.33008 617.333008 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="Clamp"/>
@@ -1413,7 +1413,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-3221.33325 725.333313 -100"/>
+            <gpos v="-3219.33008 745.333008 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="None"/>
@@ -2807,7 +2807,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-3221.33325 458.666656 -100"/>
+            <gpos v="-3219.33008 478.666992 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="Repeat"/>
@@ -2817,7 +2817,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-3221.33325 597.333313 -100"/>
+            <gpos v="-3219.33008 617.333008 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="Clamp"/>
@@ -2827,7 +2827,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-3221.33325 725.333313 -100"/>
+            <gpos v="-3219.33008 745.333008 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="None"/>

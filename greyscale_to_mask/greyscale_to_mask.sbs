@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{a9964afb-1441-4555-85d8-182938fee1e9}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -22,7 +22,7 @@
       <attributes>
         <category v="Filter"/>
         <label v="Greyscale to Mask"/>
-        <tags v="Adjustments, FJ"/>
+        <tags v="Adjustments, FB"/>
         <icon>
           <datalength v="6563"/>
           <format v="png"/>

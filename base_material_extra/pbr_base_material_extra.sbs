@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{17116ce9-450f-4080-b474-0a2ec03d3edd}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -4436,7 +4436,7 @@
                           <type v="COMMENT"/>
                           <GUIDependency v="NODE?1201790854"/>
                           <GUILayout>
-                            <gpos v="-40 44 0"/>
+                            <gpos v="-38 64 0"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="silver"/>
@@ -4447,7 +4447,7 @@
                           <type v="COMMENT"/>
                           <GUIDependency v="NODE?1201790876"/>
                           <GUILayout>
-                            <gpos v="-40 44 0"/>
+                            <gpos v="-38 64 0"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="aluminium&#10;"/>
@@ -4458,7 +4458,7 @@
                           <type v="COMMENT"/>
                           <GUIDependency v="NODE?1201790834"/>
                           <GUILayout>
-                            <gpos v="-40 44 0"/>
+                            <gpos v="-38 64 0"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="gold&#10;"/>
@@ -4468,7 +4468,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="61 191 -100"/>
+                            <gpos v="63 211 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="iron&#10;"/>
@@ -4478,7 +4478,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="105 291 -100"/>
+                            <gpos v="107 311 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="iron&#10;"/>
@@ -4488,7 +4488,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="105 291 -100"/>
+                            <gpos v="107 311 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="iron&#10;"/>
@@ -4498,7 +4498,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="56 325 -100"/>
+                            <gpos v="58 345 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="copper&#10;"/>
@@ -4508,7 +4508,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="62 465 -100"/>
+                            <gpos v="64 485 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="titanium&#10;"/>
@@ -4518,7 +4518,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="71 602 -100"/>
+                            <gpos v="73 622 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="nickel&#10;&#10;"/>
@@ -4528,7 +4528,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="71 730 -100"/>
+                            <gpos v="73 750 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="colbalt&#10;"/>
@@ -4538,7 +4538,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="61 955 -100"/>
+                            <gpos v="63 975 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="platinum"/>
@@ -4548,7 +4548,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="72 774 -100"/>
+                            <gpos v="74 794 -100"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="colbalt"/>
@@ -5569,7 +5569,7 @@
                           <type v="COMMENT"/>
                           <GUIDependency v="NODE?1204387608"/>
                           <GUILayout>
-                            <gpos v="-40 44 0"/>
+                            <gpos v="-38 64 0"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="rust&#10;"/>
@@ -5579,7 +5579,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="-376 220 -100"/>
+                            <gpos v="-374 240 -100"/>
                             <size v="100 50"/>
                           </GUILayout>
                           <GUIName v="plastic - Fabric"/>
@@ -5590,7 +5590,7 @@
                           <type v="COMMENT"/>
                           <GUIDependency v="NODE?1204388084"/>
                           <GUILayout>
-                            <gpos v="-40 44 0"/>
+                            <gpos v="-38 64 0"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="Water"/>
@@ -5601,7 +5601,7 @@
                           <type v="COMMENT"/>
                           <GUIDependency v="NODE?1204388177"/>
                           <GUILayout>
-                            <gpos v="-40 44 0"/>
+                            <gpos v="-38 64 0"/>
                             <size v="124 40"/>
                           </GUILayout>
                           <GUIName v="Ice&#10;"/>
@@ -5611,7 +5611,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="-165.5 407 -99"/>
+                            <gpos v="-163.5 427 -99"/>
                             <size v="100 50"/>
                           </GUILayout>
                           <GUIName v="plastic - Fabric"/>
@@ -5621,7 +5621,7 @@
                         <GUIObject>
                           <type v="COMMENT"/>
                           <GUILayout>
-                            <gpos v="-355 1393 -100"/>
+                            <gpos v="-353 1413 -100"/>
                             <size v="100 50"/>
                           </GUILayout>
                           <GUIName v="glass"/>
@@ -6906,7 +6906,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-227 -1243 -100"/>
+            <gpos v="-225 -1223 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="Dielectric presets"/>
@@ -6916,7 +6916,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-221 -1135 -100"/>
+            <gpos v="-219 -1115 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="Metals presets"/>
@@ -6926,7 +6926,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-216 -1380 -100"/>
+            <gpos v="-214 -1360 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="custom base color"/>
@@ -6936,7 +6936,7 @@
         <GUIObject>
           <type v="COMMENT"/>
           <GUILayout>
-            <gpos v="-213 -1508 -100"/>
+            <gpos v="-211 -1488 -100"/>
             <size v="100 50"/>
           </GUILayout>
           <GUIName v="custom diffuse"/>

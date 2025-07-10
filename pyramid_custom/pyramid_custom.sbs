@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{2bb66ef3-623d-4f10-a308-aa4e2667b41b}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -24,7 +24,7 @@
         <label v="Pyramid Custom"/>
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
-        <tags v="Pattern, Pyramid, FJ"/>
+        <tags v="Pattern, Pyramid, FB"/>
         <icon>
           <datalength v="2091"/>
           <format v="png"/>

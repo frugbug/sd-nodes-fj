@@ -2,8 +2,8 @@
 <package>
   <identifier v="Unsaved Package"/>
   <desc v="Generates wood grain flowing in any direction. Not fantastic but can be used as a starting point."/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{6f81268c-7aac-49b3-abe2-0ccaa8e85059}"/>
   <versionUID v="0"/>
   <dependencies>
@@ -16,7 +16,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1476221368"/>
+      <uid v="1534614134"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -37,7 +37,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://noise_directional_noise_1.sbs"/>
-      <uid v="1411387331"/>
+      <uid v="1357066143"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -51,7 +51,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://noise_gaussian_noise.sbs"/>
-      <uid v="1436086828"/>
+      <uid v="1357066167"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -777,7 +777,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476221368"/>
+              <path v="pkg:///auto_levels?dependency=1534614134"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
@@ -1027,7 +1027,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///directional_noise_1?dependency=1411387331"/>
+              <path v="pkg:///directional_noise_1?dependency=1357066143"/>
               <parameters>
                 <parameter>
                   <name v="angle"/>
@@ -1611,7 +1611,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///gaussian_noise?dependency=1436086828"/>
+              <path v="pkg:///gaussian_noise?dependency=1357066167"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>
