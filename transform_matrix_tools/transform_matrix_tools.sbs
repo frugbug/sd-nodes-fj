@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
+  <fileUID v="{aa602353-b083-4772-b310-95d84a606935}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://noise_clouds_2.sbs"/>
+      <uid v="1357066137"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="?himself"/>
+      <uid v="1524252667"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://noise_perlin_noise.sbs"/>
+      <uid v="1481862051"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://pattern_tile_generator.sbs"/>
+      <uid v="1300408753"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="testing"/>
+      <uid v="1524279961"/>
+      <graphOutputs/>
+      <compNodes>
+        <compNode>
+          <uid v="1524279966"/>
+          <GUILayout>
+            <gpos v="496 176 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279967"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///clouds_2?dependency=1357066137"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524279967"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524279971"/>
+          <GUILayout>
+            <gpos v="496 368 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279972"/>
+              <comptype v="2048"/>
+            </compOutput>
+            <compOutput>
+              <uid v="1524279973"/>
+              <comptype v="512"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Transform_Matrix?dependency=1524252667"/>
+              <parameters>
+                <parameter>
+                  <name v="matrix22"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="-0.291299999 0.95660001 -0.95660001 -0.291299999"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat2 v="0.1087 0.100100003"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524279972"/>
+                  <identifier v="transform_matrix"/>
+                </outputBridging>
+                <outputBridging>
+                  <uid v="1524279973"/>
+                  <identifier v="offset"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524280476"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524279966"/>
+              <connRefOutput v="1524279967"/>
+            </connection>
+            <connection>
+              <identifier v="offset"/>
+              <connRef v="1524328790"/>
+              <connRefOutput v="1524328750"/>
+            </connection>
+            <connection>
+              <identifier v="transform_matrix"/>
+              <connRef v="1524328791"/>
+              <connRefOutput v="1524328731"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="944 176 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524280477"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Apply_Transform_Matrix_Greyscale?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524280477"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524282100"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524282286"/>
+              <connRefOutput v="1524282287"/>
+            </connection>
+            <connection>
+              <identifier v="transform_matrix"/>
+              <connRef v="1524328791"/>
+              <connRefOutput v="1524328731"/>
+            </connection>
+            <connection>
+              <identifier v="offset"/>
+              <connRef v="1524328790"/>
+              <connRefOutput v="1524328750"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="944 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524280477"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Apply_Transform_Matrix_Greyscale?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524280477"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524282108"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524282225"/>
+              <connRefOutput v="1524282226"/>
+            </connection>
+            <connection>
+              <identifier v="transform_matrix"/>
+              <connRef v="1524328791"/>
+              <connRefOutput v="1524328731"/>
+            </connection>
+            <connection>
+              <identifier v="offset"/>
+              <connRef v="1524328790"/>
+              <connRefOutput v="1524328750"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="944 -80 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524280477"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Apply_Transform_Matrix_Greyscale?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524280477"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524282225"/>
+          <GUILayout>
+            <gpos v="496 -80 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524282226"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///perlin_noise?dependency=1481862051"/>
+              <parameters>
+                <parameter>
+                  <name v="scale"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="8"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524282226"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524282259"/>
+          <connections>
+            <connection>
+              <identifier v="destination"/>
+              <connRef v="1524280476"/>
+              <connRefOutput v="1524280477"/>
+            </connection>
+            <connection>
+              <identifier v="source"/>
+              <connRef v="1524282100"/>
+              <connRefOutput v="1524280477"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1168 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524282260"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend"/>
+              <parameters>
+                <parameter>
+                  <name v="maskrectangle"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="0.333999991 1 0 1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524282286"/>
+          <GUILayout>
+            <gpos v="496 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524282287"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///tile_generator?dependency=1300408753"/>
+              <parameters>
+                <parameter>
+                  <name v="x_amount"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="6"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="y_amount"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="6"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="checker_mask"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pattern"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueInt32 v="2"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524282287"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524282477"/>
+          <connections>
+            <connection>
+              <identifier v="destination"/>
+              <connRef v="1524282259"/>
+              <connRefOutput v="1524282260"/>
+            </connection>
+            <connection>
+              <identifier v="source"/>
+              <connRef v="1524282108"/>
+              <connRefOutput v="1524280477"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1392 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524282260"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend"/>
+              <parameters>
+                <parameter>
+                  <name v="maskrectangle"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueFloat4 v="0.666666687 1 0 1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524323961"/>
+          <GUILayout>
+            <gpos v="496 560 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524323962"/>
+              <comptype v="2048"/>
+            </compOutput>
+            <compOutput>
+              <uid v="1524323963"/>
+              <comptype v="512"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Transform_Matrix?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524323962"/>
+                  <identifier v="transform_matrix"/>
+                </outputBridging>
+                <outputBridging>
+                  <uid v="1524323963"/>
+                  <identifier v="offset"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524323970"/>
+          <connections>
+            <connection>
+              <identifier v="transform_matrix"/>
+              <connRef v="1524323961"/>
+              <connRefOutput v="1524323962"/>
+            </connection>
+            <connection>
+              <identifier v="offset"/>
+              <connRef v="1524323961"/>
+              <connRefOutput v="1524323963"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="784 560 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524323971"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Apply_Transform_Matrix_Greyscale?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524323971"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524324843"/>
+          <GUILayout>
+            <gpos v="496 688 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524323962"/>
+              <comptype v="2048"/>
+            </compOutput>
+            <compOutput>
+              <uid v="1524323963"/>
+              <comptype v="512"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Transform_Matrix?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524323962"/>
+                  <identifier v="transform_matrix"/>
+                </outputBridging>
+                <outputBridging>
+                  <uid v="1524323963"/>
+                  <identifier v="offset"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524324844"/>
+          <connections>
+            <connection>
+              <identifier v="transform_matrix"/>
+              <connRef v="1524324843"/>
+              <connRefOutput v="1524323962"/>
+            </connection>
+            <connection>
+              <identifier v="offset"/>
+              <connRef v="1524324843"/>
+              <connRefOutput v="1524323963"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="784 688 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524323971"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///Apply_Transform_Matrix_Greyscale?dependency=1524252667"/>
+              <parameters/>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1524323971"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524328681"/>
+          <userId v="matrix_1"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524279971"/>
+              <connRefOutput v="1524279972"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 357 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524328682"/>
+              <comptype v="2048"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="passthrough"/>
+              <parameters/>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524328690"/>
+          <userId v="offset_1"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524279971"/>
+              <connRefOutput v="1524279973"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 378.333344 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524328691"/>
+              <comptype v="512"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="passthrough"/>
+              <parameters/>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524328790"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524328690"/>
+              <displayType v="1"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="826.666687 69.3333282 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524328750"/>
+              <comptype v="512"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="passthrough"/>
+              <parameters/>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524328791"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1524328681"/>
+              <displayType v="1"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="826.666687 48 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524328731"/>
+              <comptype v="2048"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="passthrough"/>
+              <parameters/>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="9x9"/>
+        </option>
+      </options>
+      <root/>
+    </graph>
+    <graph>
+      <identifier v="Transform_Matrix"/>
+      <uid v="1524252668"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <label v="Transform Matrix"/>
+        <author v="Laura Marchant"/>
+        <tags v="Adjustments, FB"/>
+        <description v="Construct a transform matrix (with Transform 2D controls) to apply to multiple nodes using Apply Transform Matrix"/>
+        <icon>
+          <datalength v="3681"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="matrix22"/>
+          <uid v="1524255264"/>
+          <attributes>
+            <label v="Transform matrix"/>
+            <description v="Open the underlying transform &lt;b&gt;matrix&lt;/b&gt; for direct editing"/>
+          </attributes>
+          <type v="2048"/>
+          <defaultValue>
+            <constantValueFloat4 v="1 0 0 1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="transformation"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1;0;0;1"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="valueInterpretation"/>
+                <value v="matrix"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="offset"/>
+          <uid v="1524255276"/>
+          <attributes>
+            <label v="Offset"/>
+            <description v="The &lt;b&gt;Offset&lt;/b&gt; parameter defines the 2D displacement of the image"/>
+          </attributes>
+          <type v="512"/>
+          <defaultValue>
+            <constantValueFloat2 v="0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0;0"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="X"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Y"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="0.5"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="-0.5"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="transform_matrix"/>
+          <uid v="1524255322"/>
+          <attributes>
+            <label v="Transform matrix"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="transform_matrix"/>
+            </usage>
+          </usages>
+          <channels v="2048"/>
+          <group v="Matrix"/>
+        </graphoutput>
+        <graphoutput>
+          <identifier v="offset"/>
+          <uid v="1524255346"/>
+          <attributes>
+            <label v="Offset"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="offset"/>
+            </usage>
+          </usages>
+          <channels v="512"/>
+          <group v="Matrix"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1524255323"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1524324144"/>
+              <connRefOutput v="1524324145"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1264 784 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1524255322"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524255345"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1524324166"/>
+              <connRefOutput v="1524324145"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1264 912 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1524255346"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524324144"/>
+          <GUILayout>
+            <gpos v="1104 784 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524324145"/>
+              <comptype v="2048"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="valueprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="function"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1524324156"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1524324156"/>
+                          <GUILayout>
+                            <gpos v="944 336 0"/>
+                          </GUILayout>
+                          <function v="get_float4"/>
+                          <type v="2048"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float4"/>
+                              <constantValue>
+                                <constantValueString v="matrix22"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524324166"/>
+          <GUILayout>
+            <gpos v="1104 912 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524324145"/>
+              <comptype v="512"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="valueprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="function"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1524324171"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1524324171"/>
+                          <GUILayout>
+                            <gpos v="976 368 0"/>
+                          </GUILayout>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="offset"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1524255322"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+          <rootOutput>
+            <output v="1524255346"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="Apply_Transform_Matrix_Greyscale"/>
+      <uid v="1524255940"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <label v="Apply Transform Matrix Greyscale"/>
+        <author v="Laura Marchant"/>
+        <tags v="Adjustments, FB"/>
+        <description v="Apply a previously constructed transform matrix"/>
+        <icon>
+          <datalength v="4559"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="input"/>
+          <uid v="1524279816"/>
+          <attributes>
+            <label v="Input"/>
+          </attributes>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="transform_matrix"/>
+          <uid v="1524279838"/>
+          <attributes>
+            <label v="Transform Matrix"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="transform_matrix"/>
+            </usage>
+          </usages>
+          <isConnectable v="1"/>
+          <type v="2048"/>
+          <defaultValue>
+            <constantValueFloat4 v="1 0 0 1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1;0;0;1"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="X"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Y"/>
+              </option>
+              <option>
+                <name v="label2"/>
+                <value v="Z"/>
+              </option>
+              <option>
+                <name v="label3"/>
+                <value v="W"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Matrix"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="offset"/>
+          <uid v="1524279937"/>
+          <attributes>
+            <label v="Offset"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="offset"/>
+            </usage>
+          </usages>
+          <isConnectable v="1"/>
+          <type v="512"/>
+          <defaultValue>
+            <constantValueFloat2 v="0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0;0"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="X"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Y"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="-1"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Matrix"/>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1524279816"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1524279820"/>
+          <attributes>
+            <label v="Output"/>
+          </attributes>
+          <channels v="2"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1524255953"/>
+          <connections>
+            <connection>
+              <identifier v="input1"/>
+              <connRef v="1524279817"/>
+              <connRefOutput v="1524279818"/>
+            </connection>
+            <connection>
+              <identifier v="#Transform_Matrix"/>
+              <connRef v="1524279839"/>
+              <connRefOutput v="1524279840"/>
+            </connection>
+            <connection>
+              <identifier v="#Offset"/>
+              <connRef v="1524279936"/>
+              <connRefOutput v="1524279840"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="752 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524255954"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="transformation"/>
+              <parameters>
+                <parameter>
+                  <name v="matrix22"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1524271180"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1524271180"/>
+                          <function v="get_float4"/>
+                          <type v="2048"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float4"/>
+                              <constantValue>
+                                <constantValueString v="#Transform_Matrix"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1524271188"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1524271188"/>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="#Offset"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+          <inputValues>
+            <compInputValue>
+              <identifier v="#Transform_Matrix"/>
+              <type v="2048"/>
+            </compInputValue>
+            <compInputValue>
+              <identifier v="#Offset"/>
+              <type v="512"/>
+            </compInputValue>
+          </inputValues>
+        </compNode>
+        <compNode>
+          <uid v="1524279817"/>
+          <GUILayout>
+            <gpos v="592 112 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279818"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1524279816"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524279821"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1524255953"/>
+              <connRefOutput v="1524255954"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="912 240 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1524279820"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524279839"/>
+          <GUILayout>
+            <gpos v="592 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279840"/>
+              <comptype v="256"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1524279838"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524279936"/>
+          <GUILayout>
+            <gpos v="592 368 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279840"/>
+              <comptype v="256"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1524279937"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1524279820"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+    <graph>
+      <identifier v="Apply_Transform_Matrix_Colour"/>
+      <uid v="1544240932"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <label v="Apply Transform Matrix Colour"/>
+        <tags v="Adjustments, FB"/>
+        <description v="Apply a previously constructed transform matrix"/>
+        <icon>
+          <datalength v="4499"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="transform_matrix"/>
+          <uid v="1524279838"/>
+          <attributes>
+            <label v="Transform Matrix"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="transform_matrix"/>
+            </usage>
+          </usages>
+          <isConnectable v="1"/>
+          <type v="2048"/>
+          <defaultValue>
+            <constantValueFloat4 v="1 0 0 1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1;0;0;1"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="X"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Y"/>
+              </option>
+              <option>
+                <name v="label2"/>
+                <value v="Z"/>
+              </option>
+              <option>
+                <name v="label3"/>
+                <value v="W"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Matrix"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="offset"/>
+          <uid v="1524279937"/>
+          <attributes>
+            <label v="Offset"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="offset"/>
+            </usage>
+          </usages>
+          <isConnectable v="1"/>
+          <type v="512"/>
+          <defaultValue>
+            <constantValueFloat2 v="0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0;0"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="X"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="Y"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="-1"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Matrix"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="input"/>
+          <uid v="1544240957"/>
+          <attributes>
+            <label v="Input"/>
+          </attributes>
+          <isConnectable v="1"/>
+          <type v="1"/>
+          <defaultValue>
+            <constantValueFloat4 v="0 0 0 0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1544240957"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="output"/>
+          <uid v="1524279820"/>
+          <attributes>
+            <label v="Output"/>
+          </attributes>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1524255953"/>
+          <connections>
+            <connection>
+              <identifier v="#Transform_Matrix"/>
+              <connRef v="1524279839"/>
+              <connRefOutput v="1524279840"/>
+            </connection>
+            <connection>
+              <identifier v="#Offset"/>
+              <connRef v="1524279936"/>
+              <connRefOutput v="1524279840"/>
+            </connection>
+            <connection>
+              <identifier v="input1"/>
+              <connRef v="1544240958"/>
+              <connRefOutput v="1544240959"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="752 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524255954"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="transformation"/>
+              <parameters>
+                <parameter>
+                  <name v="matrix22"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1524271180"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1524271180"/>
+                          <function v="get_float4"/>
+                          <type v="2048"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float4"/>
+                              <constantValue>
+                                <constantValueString v="#Transform_Matrix"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1524271188"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1524271188"/>
+                          <function v="get_float2"/>
+                          <type v="512"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float2"/>
+                              <constantValue>
+                                <constantValueString v="#Offset"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+          <inputValues>
+            <compInputValue>
+              <identifier v="#Transform_Matrix"/>
+              <type v="2048"/>
+            </compInputValue>
+            <compInputValue>
+              <identifier v="#Offset"/>
+              <type v="512"/>
+            </compInputValue>
+          </inputValues>
+        </compNode>
+        <compNode>
+          <uid v="1524279821"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1524255953"/>
+              <connRefOutput v="1524255954"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="912 240 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1524279820"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524279839"/>
+          <GUILayout>
+            <gpos v="592 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279840"/>
+              <comptype v="256"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1524279838"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1524279936"/>
+          <GUILayout>
+            <gpos v="592 368 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1524279840"/>
+              <comptype v="256"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1524279937"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1544240958"/>
+          <GUILayout>
+            <gpos v="592 112 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1544240959"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1544240957"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="12x12"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1524279820"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>

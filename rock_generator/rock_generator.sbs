@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package>
   <identifier v="Unsaved Package"/>
-  <formatVersion v="1.1.0.202302"/>
-  <updaterVersion v="1.1.0.202302"/>
+  <formatVersion v="1.1.0.202401"/>
+  <updaterVersion v="1.1.0.202401"/>
   <fileUID v="{9f8f00a7-919d-4985-b2fa-25b7fdb871cf}"/>
   <versionUID v="0"/>
   <dependencies>
     <dependency>
       <filename v="sbs://auto_levels.sbs"/>
-      <uid v="1476221368"/>
+      <uid v="1534614134"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -22,7 +22,7 @@
     </dependency>
     <dependency>
       <filename v="sbs://noise_crystal_1.sbs"/>
-      <uid v="1436170020"/>
+      <uid v="1357066141"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -43,14 +43,14 @@
     </dependency>
     <dependency>
       <filename v="sbs://noise_gaussian_noise.sbs"/>
-      <uid v="1436086828"/>
+      <uid v="1357066167"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
     </dependency>
     <dependency>
       <filename v="sbs://noise_clouds_2.sbs"/>
-      <uid v="1479421666"/>
+      <uid v="1357066137"/>
       <type v="package"/>
       <fileUID v="0"/>
       <versionUID v="0"/>
@@ -675,7 +675,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///crystal_1?dependency=1436170020"/>
+              <path v="pkg:///crystal_1?dependency=1357066141"/>
               <parameters>
                 <parameter>
                   <name v="scale"/>
@@ -1239,7 +1239,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///gaussian_noise?dependency=1436086828"/>
+              <path v="pkg:///gaussian_noise?dependency=1357066167"/>
               <parameters>
                 <parameter>
                   <name v="scale"/>
@@ -1271,7 +1271,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///clouds_2?dependency=1479421666"/>
+              <path v="pkg:///clouds_2?dependency=1357066137"/>
               <parameters>
                 <parameter>
                   <name v="outputsize"/>
@@ -1518,7 +1518,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///gaussian_noise?dependency=1436086828"/>
+              <path v="pkg:///gaussian_noise?dependency=1357066167"/>
               <parameters>
                 <parameter>
                   <name v="scale"/>
@@ -1670,7 +1670,7 @@
           </compOutputs>
           <compImplementation>
             <compInstance>
-              <path v="pkg:///auto_levels?dependency=1476221368"/>
+              <path v="pkg:///auto_levels?dependency=1534614134"/>
               <parameters/>
               <outputBridgings>
                 <outputBridging>

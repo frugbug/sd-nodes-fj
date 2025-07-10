@@ -10,6 +10,9 @@ Plug a texture into this to show it in the 3D view without lighting. Especially 
 ## Get Average
 Returns the average value of a greyscale input.
 
+## Transform Matrix/Apply Transform Matrix
+Construct a transform matrix (using similar controls to  the standard Transform 2D), then apply it to multiple nodes at once.
+
 ## Rotate
 Rotates the input around a point.
 
