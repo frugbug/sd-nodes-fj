@@ -7,13 +7,6 @@
   <versionUID v="0"/>
   <dependencies>
     <dependency>
-      <filename v="../../AS-Input-Value-Nodes.sbs"/>
-      <uid v="1420060292"/>
-      <type v="package"/>
-      <fileUID v="0"/>
-      <versionUID v="0"/>
-    </dependency>
-    <dependency>
       <filename v="sbs://make_it_tile_photo.sbs"/>
       <uid v="1522368174"/>
       <type v="package"/>
@@ -39,6 +32,7 @@
         <author v="Laura Marchant"/>
         <authorURL v="https://www.artstation.com/laura-marchant"/>
         <tags v="Transformation"/>
+        <description v="Quickly scale a material up or down while blending edges"/>
         <icon>
           <datalength v="22708"/>
           <format v="png"/>
@@ -444,104 +438,6 @@
           </inputValues>
         </compNode>
         <compNode>
-          <uid v="1522241157"/>
-          <GUILayout>
-            <gpos v="560 592 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1522368783"/>
-              <comptype v="256"/>
-            </compOutput>
-          </compOutputs>
-          <compImplementation>
-            <compInstance>
-              <path v="pkg:///Float_Nodes/AS_Float?dependency=1420060292"/>
-              <parameters>
-                <parameter>
-                  <name v="value"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <dynamicValue>
-                      <rootnode v="1522242097"/>
-                      <paramNodes>
-                        <paramNode>
-                          <uid v="1522242097"/>
-                          <function v="get_float1"/>
-                          <type v="256"/>
-                          <funcDatas>
-                            <funcData>
-                              <name v="get_float1"/>
-                              <constantValue>
-                                <constantValueString v="Mask_Precision"/>
-                              </constantValue>
-                            </funcData>
-                          </funcDatas>
-                        </paramNode>
-                      </paramNodes>
-                    </dynamicValue>
-                  </paramValue>
-                </parameter>
-              </parameters>
-              <outputBridgings>
-                <outputBridging>
-                  <uid v="1522368783"/>
-                  <identifier v="value"/>
-                </outputBridging>
-              </outputBridgings>
-            </compInstance>
-          </compImplementation>
-        </compNode>
-        <compNode>
-          <uid v="1522241158"/>
-          <GUILayout>
-            <gpos v="560 720 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1522368783"/>
-              <comptype v="256"/>
-            </compOutput>
-          </compOutputs>
-          <compImplementation>
-            <compInstance>
-              <path v="pkg:///Float_Nodes/AS_Float?dependency=1420060292"/>
-              <parameters>
-                <parameter>
-                  <name v="value"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <dynamicValue>
-                      <rootnode v="1522242047"/>
-                      <paramNodes>
-                        <paramNode>
-                          <uid v="1522242047"/>
-                          <function v="get_float1"/>
-                          <type v="256"/>
-                          <funcDatas>
-                            <funcData>
-                              <name v="get_float1"/>
-                              <constantValue>
-                                <constantValueString v="Mask_Warping"/>
-                              </constantValue>
-                            </funcData>
-                          </funcDatas>
-                        </paramNode>
-                      </paramNodes>
-                    </dynamicValue>
-                  </paramValue>
-                </parameter>
-              </parameters>
-              <outputBridgings>
-                <outputBridging>
-                  <uid v="1522368783"/>
-                  <identifier v="value"/>
-                </outputBridging>
-              </outputBridgings>
-            </compInstance>
-          </compImplementation>
-        </compNode>
-        <compNode>
           <uid v="1522241160"/>
           <connections>
             <connection>
@@ -603,55 +499,6 @@
           </inputValues>
         </compNode>
         <compNode>
-          <uid v="1522241163"/>
-          <GUILayout>
-            <gpos v="112 560 0"/>
-          </GUILayout>
-          <compOutputs>
-            <compOutput>
-              <uid v="1522370570"/>
-              <comptype v="256"/>
-            </compOutput>
-          </compOutputs>
-          <compImplementation>
-            <compInstance>
-              <path v="pkg:///Float_Nodes/AS_Float?dependency=1420060292"/>
-              <parameters>
-                <parameter>
-                  <name v="value"/>
-                  <relativeTo v="0"/>
-                  <paramValue>
-                    <dynamicValue>
-                      <rootnode v="1522241775"/>
-                      <paramNodes>
-                        <paramNode>
-                          <uid v="1522241775"/>
-                          <function v="get_float1"/>
-                          <type v="256"/>
-                          <funcDatas>
-                            <funcData>
-                              <name v="get_float1"/>
-                              <constantValue>
-                                <constantValueString v="Scale"/>
-                              </constantValue>
-                            </funcData>
-                          </funcDatas>
-                        </paramNode>
-                      </paramNodes>
-                    </dynamicValue>
-                  </paramValue>
-                </parameter>
-              </parameters>
-              <outputBridgings>
-                <outputBridging>
-                  <uid v="1522370570"/>
-                  <identifier v="value"/>
-                </outputBridging>
-              </outputBridgings>
-            </compInstance>
-          </compImplementation>
-        </compNode>
-        <compNode>
           <uid v="1522241164"/>
           <connections>
             <connection>
@@ -659,18 +506,18 @@
               <connRef v="1522241155"/>
             </connection>
             <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241157"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#warping"/>
+              <connRef v="1544576440"/>
+              <connRefOutput v="1544576441"/>
             </connection>
             <connection>
-              <identifier v="#input_1"/>
-              <connRef v="1522241158"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#precision"/>
+              <connRef v="1544576984"/>
+              <connRefOutput v="1544576441"/>
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="720 -176 0"/>
+            <gpos v="752 -176 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -697,7 +544,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -721,7 +568,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -745,7 +592,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -769,7 +616,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -789,11 +636,11 @@
           </compImplementation>
           <inputValues>
             <compInputValue>
-              <identifier v="#input"/>
+              <identifier v="#precision"/>
               <type v="256"/>
             </compInputValue>
             <compInputValue>
-              <identifier v="#input_1"/>
+              <identifier v="#warping"/>
               <type v="256"/>
             </compInputValue>
           </inputValues>
@@ -802,23 +649,23 @@
           <uid v="1522241165"/>
           <connections>
             <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241157"/>
-              <connRefOutput v="1522368783"/>
-            </connection>
-            <connection>
               <identifier v="Source"/>
               <connRef v="1522241174"/>
               <connRefOutput v="1522366708"/>
             </connection>
             <connection>
-              <identifier v="#input_1"/>
-              <connRef v="1522241158"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#warping"/>
+              <connRef v="1544576440"/>
+              <connRefOutput v="1544576441"/>
+            </connection>
+            <connection>
+              <identifier v="#precision"/>
+              <connRef v="1544576984"/>
+              <connRefOutput v="1544576441"/>
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="720 464 0"/>
+            <gpos v="752 464 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -845,7 +692,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -869,7 +716,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -893,7 +740,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -917,7 +764,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -937,11 +784,11 @@
           </compImplementation>
           <inputValues>
             <compInputValue>
-              <identifier v="#input"/>
+              <identifier v="#precision"/>
               <type v="256"/>
             </compInputValue>
             <compInputValue>
-              <identifier v="#input_1"/>
+              <identifier v="#warping"/>
               <type v="256"/>
             </compInputValue>
           </inputValues>
@@ -950,23 +797,23 @@
           <uid v="1522241166"/>
           <connections>
             <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241157"/>
-              <connRefOutput v="1522368783"/>
-            </connection>
-            <connection>
               <identifier v="Source"/>
               <connRef v="1522241168"/>
               <connRefOutput v="1522366708"/>
             </connection>
             <connection>
-              <identifier v="#input_1"/>
-              <connRef v="1522241158"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#warping"/>
+              <connRef v="1544576440"/>
+              <connRefOutput v="1544576441"/>
+            </connection>
+            <connection>
+              <identifier v="#precision"/>
+              <connRef v="1544576984"/>
+              <connRefOutput v="1544576441"/>
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="720 335.999969 0"/>
+            <gpos v="752 335.999969 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -993,7 +840,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1017,7 +864,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1041,7 +888,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1065,7 +912,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1085,11 +932,11 @@
           </compImplementation>
           <inputValues>
             <compInputValue>
-              <identifier v="#input"/>
+              <identifier v="#precision"/>
               <type v="256"/>
             </compInputValue>
             <compInputValue>
-              <identifier v="#input_1"/>
+              <identifier v="#warping"/>
               <type v="256"/>
             </compInputValue>
           </inputValues>
@@ -1159,23 +1006,23 @@
           <uid v="1522241170"/>
           <connections>
             <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241157"/>
-              <connRefOutput v="1522368783"/>
-            </connection>
-            <connection>
               <identifier v="Source"/>
               <connRef v="1522241178"/>
               <connRefOutput v="1522366708"/>
             </connection>
             <connection>
-              <identifier v="#input_1"/>
-              <connRef v="1522241158"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#warping"/>
+              <connRef v="1544576440"/>
+              <connRefOutput v="1544576441"/>
+            </connection>
+            <connection>
+              <identifier v="#precision"/>
+              <connRef v="1544576984"/>
+              <connRefOutput v="1544576441"/>
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="720 -48.0000076 0"/>
+            <gpos v="752 -48.0000076 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -1202,7 +1049,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1226,7 +1073,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1250,7 +1097,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1274,7 +1121,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1294,11 +1141,11 @@
           </compImplementation>
           <inputValues>
             <compInputValue>
-              <identifier v="#input"/>
+              <identifier v="#precision"/>
               <type v="256"/>
             </compInputValue>
             <compInputValue>
-              <identifier v="#input_1"/>
+              <identifier v="#warping"/>
               <type v="256"/>
             </compInputValue>
           </inputValues>
@@ -1427,15 +1274,8 @@
         </compNode>
         <compNode>
           <uid v="1522241180"/>
-          <connections>
-            <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241163"/>
-              <connRefOutput v="1522370570"/>
-            </connection>
-          </connections>
           <GUILayout>
-            <gpos v="272 560 0"/>
+            <gpos v="272 592 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -1499,7 +1339,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="Scale"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1573,34 +1413,28 @@
               </parameters>
             </compFilter>
           </compImplementation>
-          <inputValues>
-            <compInputValue>
-              <identifier v="#input"/>
-              <type v="256"/>
-            </compInputValue>
-          </inputValues>
         </compNode>
         <compNode>
           <uid v="1522241181"/>
           <connections>
-            <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241157"/>
-              <connRefOutput v="1522368783"/>
-            </connection>
             <connection>
               <identifier v="Source"/>
               <connRef v="1522241160"/>
               <connRefOutput v="1522366708"/>
             </connection>
             <connection>
-              <identifier v="#input_1"/>
-              <connRef v="1522241158"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#warping"/>
+              <connRef v="1544576440"/>
+              <connRefOutput v="1544576441"/>
+            </connection>
+            <connection>
+              <identifier v="#precision"/>
+              <connRef v="1544576984"/>
+              <connRefOutput v="1544576441"/>
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="720 80 0"/>
+            <gpos v="752 80 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -1627,7 +1461,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1651,7 +1485,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1675,7 +1509,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1699,7 +1533,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1719,11 +1553,11 @@
           </compImplementation>
           <inputValues>
             <compInputValue>
-              <identifier v="#input"/>
+              <identifier v="#precision"/>
               <type v="256"/>
             </compInputValue>
             <compInputValue>
-              <identifier v="#input_1"/>
+              <identifier v="#warping"/>
               <type v="256"/>
             </compInputValue>
           </inputValues>
@@ -1732,23 +1566,23 @@
           <uid v="1522241739"/>
           <connections>
             <connection>
-              <identifier v="#input"/>
-              <connRef v="1522241157"/>
-              <connRefOutput v="1522368783"/>
-            </connection>
-            <connection>
               <identifier v="Source"/>
               <connRef v="1522241740"/>
               <connRefOutput v="1522366708"/>
             </connection>
             <connection>
-              <identifier v="#input_1"/>
-              <connRef v="1522241158"/>
-              <connRefOutput v="1522368783"/>
+              <identifier v="#warping"/>
+              <connRef v="1544576440"/>
+              <connRefOutput v="1544576441"/>
+            </connection>
+            <connection>
+              <identifier v="#precision"/>
+              <connRef v="1544576984"/>
+              <connRefOutput v="1544576441"/>
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="720 208 0"/>
+            <gpos v="752 208 0"/>
           </GUILayout>
           <compOutputs>
             <compOutput>
@@ -1775,7 +1609,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1799,7 +1633,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input"/>
+                                <constantValueString v="#precision"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1823,7 +1657,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1847,7 +1681,7 @@
                             <funcData>
                               <name v="get_float1"/>
                               <constantValue>
-                                <constantValueString v="#input_1"/>
+                                <constantValueString v="#warping"/>
                               </constantValue>
                             </funcData>
                           </funcDatas>
@@ -1867,11 +1701,11 @@
           </compImplementation>
           <inputValues>
             <compInputValue>
-              <identifier v="#input"/>
+              <identifier v="#precision"/>
               <type v="256"/>
             </compInputValue>
             <compInputValue>
-              <identifier v="#input_1"/>
+              <identifier v="#warping"/>
               <type v="256"/>
             </compInputValue>
           </inputValues>
@@ -2313,7 +2147,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="912 -176 0"/>
+            <gpos v="944 -176 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
@@ -2331,7 +2165,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="912 -48 0"/>
+            <gpos v="944 -48 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
@@ -2349,7 +2183,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="912 80 0"/>
+            <gpos v="944 80 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
@@ -2367,7 +2201,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="912 208 0"/>
+            <gpos v="944 208 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
@@ -2385,7 +2219,7 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="912 336 0"/>
+            <gpos v="944 336 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
@@ -2403,12 +2237,104 @@
             </connection>
           </connections>
           <GUILayout>
-            <gpos v="912 464 0"/>
+            <gpos v="944 464 0"/>
           </GUILayout>
           <compImplementation>
             <compOutputBridge>
               <output v="1522245733"/>
             </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1544576440"/>
+          <GUILayout>
+            <gpos v="560 720 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1544576441"/>
+              <comptype v="256"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="valueprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="function"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1544576449"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1544576449"/>
+                          <GUILayout>
+                            <gpos v="1200 432 0"/>
+                          </GUILayout>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Mask_Warping"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1544576984"/>
+          <GUILayout>
+            <gpos v="560 592 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1544576441"/>
+              <comptype v="256"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="valueprocessor"/>
+              <parameters>
+                <parameter>
+                  <name v="function"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1544576449"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1544576449"/>
+                          <GUILayout>
+                            <gpos v="1200 432 0"/>
+                          </GUILayout>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="Mask_Precision"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
           </compImplementation>
         </compNode>
       </compNodes>
