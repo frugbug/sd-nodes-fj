@@ -76,6 +76,9 @@ Allows the user to choose a custom peak position for the pyramid.
 ## Material Blend Custom
 Added an option to change normal blending mode (replace/combine) and added an opacity channel.
 
+## Material Scale (Tile Safe)
+Quickly scale a material up or down while blending edges.
+
 ## Position remap
 Kind of a novelty node. Will distort an input based on a UV map. This can now be replaced now with the stock "UV Mapper" nodes after Designer 13.0.0
 
