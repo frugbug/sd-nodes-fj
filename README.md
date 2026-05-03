@@ -34,6 +34,9 @@ A node for performing common tiling/upscaling operations on bitmap grunges to ma
 ## Soft Threshold
 Basically the same thing as histogram scan, but more intuitive with less clutter and better defaults.
 
+## Quick Height
+Input a height map and instantly get physical size-based normal and AO outputs. Optionally expose preview material outputs.
+
 ## UV Warp
 Distorts the first input's UV coordinates based on the second input. Good for very low intensity warps as it does not produce noise, but will create visible stretching at high intensities.
 

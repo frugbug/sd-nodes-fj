@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <identifier v="Unsaved Package"/>
+  <formatVersion v="1.1.0.202502"/>
+  <updaterVersion v="1.1.0.202502"/>
+  <fileUID v="{0393b255-4acd-4db8-a9b8-bd1c70df078c}"/>
+  <versionUID v="0"/>
+  <dependencies>
+    <dependency>
+      <filename v="sbs://height_to_normal_world_units.sbs"/>
+      <uid v="1569839077"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://hbao_2.sbs"/>
+      <uid v="1297162667"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://rt_ao_v2.sbs"/>
+      <uid v="1477525485"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+    <dependency>
+      <filename v="sbs://blend_switch.sbs"/>
+      <uid v="1299239600"/>
+      <type v="package"/>
+      <fileUID v="0"/>
+      <versionUID v="0"/>
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="quick_height"/>
+      <uid v="1570136065"/>
+      <graphtype v="filter"/>
+      <attributes>
+        <category v="Material filter"/>
+        <label v="Quick Height"/>
+        <author v="Laura Marchant"/>
+        <authorURL v="https://www.artstation.com/laura-marchant"/>
+        <tags v="PBR utilities"/>
+        <icon>
+          <datalength v="1978"/>
+          <format v="png"/>
+          <strdata v="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"/>
+        </icon>
+        <materialModel v="openpbr_v1_1"/>
+      </attributes>
+      <paraminputs>
+        <paraminput>
+          <identifier v="preview_mat_outputs"/>
+          <uid v="1570249928"/>
+          <attributes>
+            <label v="Preview material outputs"/>
+            <description v="Enable basic material preview outputs."/>
+          </attributes>
+          <type v="4"/>
+          <defaultValue>
+            <constantValueBool v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="buttons"/>
+            <options>
+              <option>
+                <name v="booleditortype"/>
+                <value v="pushbuttons"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="False"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="True"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="base_colour"/>
+          <uid v="1570250028"/>
+          <attributes>
+            <label v="Base colour"/>
+          </attributes>
+          <type v="2048"/>
+          <defaultValue>
+            <constantValueFloat4 v="0.75 0.75 0.75 1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="color"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0.75;0.75;0.75;1"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="valueInterpretation"/>
+                <value v="color"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Preview material"/>
+          <visibleIf v="input.preview_mat_outputs"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="roughness"/>
+          <uid v="1570250053"/>
+          <attributes>
+            <label v="Roughness"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0.5"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0.5"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Preview material"/>
+          <visibleIf v="input.preview_mat_outputs"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="metallic"/>
+          <uid v="1570250082"/>
+          <attributes>
+            <label v="Metallic"/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="Preview material"/>
+          <visibleIf v="input.preview_mat_outputs"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="surface_size"/>
+          <uid v="1570138826"/>
+          <attributes>
+            <label v="Surface size (cm)"/>
+            <description v="Width or Height (whichever is the smallest) of the represented surface."/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="100"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="100"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1000"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="1"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="height_depth"/>
+          <uid v="1570138834"/>
+          <attributes>
+            <label v="Height depth (cm)"/>
+            <description v="Height depth of the surface."/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="3"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="3"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="100"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="normal_format"/>
+          <uid v="1570142588"/>
+          <attributes>
+            <label v="Normal format"/>
+            <description v="Flip the normal Green Channel"/>
+          </attributes>
+          <type v="16"/>
+          <defaultValue>
+            <constantValueInt1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="dropdownlist"/>
+            <options>
+              <option>
+                <name v="parameters"/>
+                <value v="0;0;DirectX;1;OpenGL"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="normal_sampling"/>
+          <uid v="1570142597"/>
+          <attributes>
+            <label v="Normal sampling"/>
+          </attributes>
+          <type v="16"/>
+          <defaultValue>
+            <constantValueInt1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="dropdownlist"/>
+            <options>
+              <option>
+                <name v="parameters"/>
+                <value v="0;0;Standard;1;Sobel"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="RTAO"/>
+          <uid v="1570142609"/>
+          <attributes>
+            <description v="Enable RTAO instead of HBAO."/>
+          </attributes>
+          <type v="4"/>
+          <defaultValue>
+            <constantValueBool v="1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="buttons"/>
+            <options>
+              <option>
+                <name v="booleditortype"/>
+                <value v="pushbuttons"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="label0"/>
+                <value v="False"/>
+              </option>
+              <option>
+                <name v="label1"/>
+                <value v="True"/>
+              </option>
+            </options>
+          </defaultWidget>
+        </paraminput>
+        <paraminput>
+          <identifier v="RTAO_samples"/>
+          <uid v="1570143544"/>
+          <attributes>
+            <label v="RTAO samples"/>
+            <description v="Number of rays used to compute the Ambient Occlusion."/>
+          </attributes>
+          <type v="16"/>
+          <defaultValue>
+            <constantValueInt1 v="128"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="128"/>
+              </option>
+              <option>
+                <name v="isRandomizable"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="256"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="1"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <visibleIf v="input.RTAO"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="RTAO_distribution"/>
+          <uid v="1570143581"/>
+          <attributes>
+            <label v="RTAO distribution"/>
+            <description v="Distribution of the rays.Cosine produces a physically accurate result."/>
+          </attributes>
+          <type v="16"/>
+          <defaultValue>
+            <constantValueInt1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="dropdownlist"/>
+            <options>
+              <option>
+                <name v="parameters"/>
+                <value v="0;0;Cosine;1;Uniform"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <visibleIf v="input.RTAO"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="RTAO_max_distance"/>
+          <uid v="1570180669"/>
+          <attributes>
+            <label v="RTAO maximum distance"/>
+            <description v="Sets the maximum distance rays can travel to be occluded."/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="0.5"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="0.5"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.001"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <visibleIf v="input.RTAO"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="RTAO_spread_angle"/>
+          <uid v="1570180692"/>
+          <attributes>
+            <label v="RTAO spread angle"/>
+            <description v="Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere."/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0.001"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <visibleIf v="input.RTAO"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="HBAO_radius"/>
+          <uid v="1570181654"/>
+          <attributes>
+            <label v="HBAO radius"/>
+            <description v="Adjusts the Ambient Occlusion radius. Corresponds to the &quot;Max Occluder Distance&quot; parameter in the bakers.&#10;A value of 1 equals to the largest border of the image."/>
+          </attributes>
+          <type v="256"/>
+          <defaultValue>
+            <constantValueFloat1 v="1"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider"/>
+            <options>
+              <option>
+                <name v="clamp"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="default"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="max"/>
+                <value v="1"/>
+              </option>
+              <option>
+                <name v="min"/>
+                <value v="0"/>
+              </option>
+              <option>
+                <name v="step"/>
+                <value v="0.01"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <visibleIf v="!input.RTAO"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="HBAO_samples"/>
+          <uid v="1570186153"/>
+          <attributes>
+            <label v="HBAO quality"/>
+          </attributes>
+          <type v="16"/>
+          <defaultValue>
+            <constantValueInt1 v="16"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v="dropdownlist"/>
+            <options>
+              <option>
+                <name v="parameters"/>
+                <value v="2;4;4 samples;8;8 samples;16;16 samples"/>
+              </option>
+            </options>
+          </defaultWidget>
+          <visibleIf v="!input.RTAO"/>
+        </paraminput>
+        <paraminput>
+          <identifier v="height"/>
+          <uid v="1570192712"/>
+          <attributes>
+            <label v="Height input"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="height"/>
+            </usage>
+          </usages>
+          <isConnectable v="1"/>
+          <type v="2"/>
+          <defaultValue>
+            <constantValueFloat1 v="0"/>
+          </defaultValue>
+          <defaultWidget>
+            <name v=""/>
+            <options/>
+          </defaultWidget>
+        </paraminput>
+      </paraminputs>
+      <primaryInput v="1570192712"/>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="basecolor"/>
+          <uid v="1570248950"/>
+          <attributes>
+            <label v="Base Color"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="baseColor"/>
+            </usage>
+          </usages>
+          <group v="Material"/>
+          <visibleIf v="input.preview_mat_outputs"/>
+        </graphoutput>
+        <graphoutput>
+          <identifier v="roughness"/>
+          <uid v="1570248958"/>
+          <attributes>
+            <label v="Roughness"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="roughness"/>
+            </usage>
+          </usages>
+          <channels v="2"/>
+          <group v="Material"/>
+          <visibleIf v="input.preview_mat_outputs"/>
+        </graphoutput>
+        <graphoutput>
+          <identifier v="metallic"/>
+          <uid v="1570248962"/>
+          <attributes>
+            <label v="Metallic"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="metallic"/>
+            </usage>
+          </usages>
+          <channels v="2"/>
+          <group v="Material"/>
+          <visibleIf v="input.preview_mat_outputs"/>
+        </graphoutput>
+        <graphoutput>
+          <identifier v="normal"/>
+          <uid v="1570191739"/>
+          <attributes>
+            <label v="Normal"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="normal"/>
+            </usage>
+          </usages>
+          <group v="Material"/>
+        </graphoutput>
+        <graphoutput>
+          <identifier v="height"/>
+          <uid v="1570191748"/>
+          <attributes>
+            <label v="Height passthrough"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="height"/>
+            </usage>
+          </usages>
+          <channels v="2"/>
+          <group v="Material"/>
+        </graphoutput>
+        <graphoutput>
+          <identifier v="ambientOcclusion"/>
+          <uid v="1570191751"/>
+          <attributes>
+            <label v="Ambient Occlusion"/>
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA"/>
+              <name v="ambientOcclusion"/>
+            </usage>
+          </usages>
+          <channels v="2"/>
+          <group v="Material"/>
+        </graphoutput>
+      </graphOutputs>
+      <compNodes>
+        <compNode>
+          <uid v="1570136993"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1570192713"/>
+              <connRefOutput v="1570192714"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="176 112 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570136994"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///height_to_normal_world_units_2?dependency=1569839077"/>
+              <parameters>
+                <parameter>
+                  <name v="normal_format"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570142589"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570142589"/>
+                          <function v="get_integer1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_integer1"/>
+                              <constantValue>
+                                <constantValueString v="normal_format"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="surface_size"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570138827"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570138827"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="surface_size"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="height_depth"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570138835"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570138835"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="height_depth"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="sampling"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570142598"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570142598"/>
+                          <function v="get_integer1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_integer1"/>
+                              <constantValue>
+                                <constantValueString v="normal_sampling"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1570136994"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570137013"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1570192713"/>
+              <connRefOutput v="1570192714"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="176 496 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570137014"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///hbao?dependency=1297162667"/>
+              <parameters>
+                <parameter>
+                  <name v="use_world_units"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="surface_size"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570138841"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570138841"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="surface_size"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="height_depth_cm"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570139739"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570139739"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="height_depth"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="radius"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570181655"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570181655"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="HBAO_radius"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="samples"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570186154"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570186154"/>
+                          <function v="get_integer1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_integer1"/>
+                              <constantValue>
+                                <constantValueString v="HBAO_samples"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="gpu_optim"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1570137014"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570142369"/>
+          <connections>
+            <connection>
+              <identifier v="input"/>
+              <connRef v="1570192713"/>
+              <connRefOutput v="1570192714"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="176 368 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570142370"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///rt_ao?dependency=1477525485"/>
+              <parameters>
+                <parameter>
+                  <name v="use_physical_size"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="physical_size"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570142505"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570142434"/>
+                          <GUILayout>
+                            <gpos v="1168 304 0"/>
+                          </GUILayout>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="surface_size"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1570142453"/>
+                          <connections>
+                            <connection>
+                              <identifier v="componentsin"/>
+                              <connRef v="1570142434"/>
+                            </connection>
+                            <connection>
+                              <identifier v="componentslast"/>
+                              <connRef v="1570142434"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="1328 304 0"/>
+                          </GUILayout>
+                          <function v="vector2"/>
+                          <type v="512"/>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1570142486"/>
+                          <GUILayout>
+                            <gpos v="1328 432 0"/>
+                          </GUILayout>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="height_depth"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                        <paramNode>
+                          <uid v="1570142505"/>
+                          <connections>
+                            <connection>
+                              <identifier v="componentsin"/>
+                              <connRef v="1570142453"/>
+                            </connection>
+                            <connection>
+                              <identifier v="componentslast"/>
+                              <connRef v="1570142486"/>
+                            </connection>
+                          </connections>
+                          <GUILayout>
+                            <gpos v="1488 368 0"/>
+                          </GUILayout>
+                          <function v="vector3"/>
+                          <type v="1024"/>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="samples"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570143545"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570143545"/>
+                          <function v="get_integer1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_integer1"/>
+                              <constantValue>
+                                <constantValueString v="RTAO_samples"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="distribution"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570143582"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570143582"/>
+                          <function v="get_integer1"/>
+                          <type v="16"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_integer1"/>
+                              <constantValue>
+                                <constantValueString v="RTAO_distribution"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="max_distance"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570180670"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570180670"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="RTAO_max_distance"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="spread_angle"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570180693"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570180693"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="RTAO_spread_angle"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1570142370"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570142560"/>
+          <connections>
+            <connection>
+              <identifier v="input_1"/>
+              <connRef v="1570142369"/>
+              <connRefOutput v="1570142370"/>
+            </connection>
+            <connection>
+              <identifier v="input_2"/>
+              <connRef v="1570137013"/>
+              <connRefOutput v="1570137014"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="336 432 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570142561"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///switch_grayscale?dependency=1299239600"/>
+              <parameters>
+                <parameter>
+                  <name v="switch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570142610"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570142610"/>
+                          <function v="get_bool"/>
+                          <type v="4"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_bool"/>
+                              <constantValue>
+                                <constantValueString v="RTAO"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1570142561"/>
+                  <identifier v="output"/>
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570191740"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1570136993"/>
+              <connRefOutput v="1570136994"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 112 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1570191739"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570191749"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1570192713"/>
+              <connRefOutput v="1570192714"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 240 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1570191748"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570191752"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1570142560"/>
+              <connRefOutput v="1570142561"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 432 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1570191751"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570192713"/>
+          <GUILayout>
+            <gpos v="-112 240 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570192714"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInputBridge>
+              <entry v="1570192712"/>
+              <parameters>
+                <parameter>
+                  <name v="outputsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt2 v="0 0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="format"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelsize"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueFloat2 v="1 1"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="pixelratio"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tiling"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed"/>
+                  <relativeTo v="1"/>
+                  <paramValue>
+                    <constantValueInt1 v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compInputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570248835"/>
+          <GUILayout>
+            <gpos v="176 -400 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570248836"/>
+              <comptype v="1"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570250029"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570250029"/>
+                          <function v="get_float4"/>
+                          <type v="2048"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float4"/>
+                              <constantValue>
+                                <constantValueString v="base_colour"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <paramValue>
+                    <constantValueBool v="1"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570248892"/>
+          <GUILayout>
+            <gpos v="176 -272 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570248836"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570250054"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570250054"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="roughness"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570248905"/>
+          <GUILayout>
+            <gpos v="176 -144 0"/>
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1570248836"/>
+              <comptype v="2"/>
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform"/>
+              <parameters>
+                <parameter>
+                  <name v="colorswitch"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <constantValueBool v="0"/>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor"/>
+                  <relativeTo v="0"/>
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1570250083"/>
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1570250083"/>
+                          <function v="get_float1"/>
+                          <type v="256"/>
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1"/>
+                              <constantValue>
+                                <constantValueString v="metallic"/>
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570248951"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1570248835"/>
+              <connRefOutput v="1570248836"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 -400 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1570248950"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570248959"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1570248892"/>
+              <connRefOutput v="1570248836"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 -272 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1570248958"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1570248963"/>
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput"/>
+              <connRef v="1570248905"/>
+              <connRefOutput v="1570248836"/>
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="592 -144 0"/>
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1570248962"/>
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters/>
+      <options>
+        <option>
+          <name v="defaultParentSize"/>
+          <value v="11x11"/>
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1570191739"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+          <rootOutput>
+            <output v="1570191748"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+          <rootOutput>
+            <output v="1570191751"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+          <rootOutput>
+            <output v="1570248950"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+          <rootOutput>
+            <output v="1570248958"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+          <rootOutput>
+            <output v="1570248962"/>
+            <format v="0"/>
+            <usertag v=""/>
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>
