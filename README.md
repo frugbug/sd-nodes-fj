@@ -40,6 +40,9 @@ Quickly scale a material up or down while blending edges.
 ### Base Material (Extra)
 A modified base material node with some extra shader inputs, plus a preset for my own custom "clay" material I like to start with.
 
+### Pixel Index
+Outputs the index of each pixel as an integer, with options to order X-first or Y-first.
+
 ### Empty Hald CLUT
 Generates a blank/empty/plain/unmodified Hald CLUT.
 
